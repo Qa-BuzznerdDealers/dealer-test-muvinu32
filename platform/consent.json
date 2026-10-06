@@ -40,7 +40,7 @@
       "description": "Advertisement cookies are used to provide visitors with customized advertisements based on the pages you visited previously and to analyze the effectiveness of the ad campaigns."
     }
   },
-  "revisitButton": false,
+  "revisitButton": true,
   "showReject": true,
   "showPreferences": true,
   "reloadOnChoice": false,
