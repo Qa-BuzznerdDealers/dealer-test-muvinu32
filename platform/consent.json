@@ -1,0 +1,443 @@
+{
+  "mode": "opt-in",
+  "version": 1,
+  "expiryDays": 365,
+  "categories": [
+    "functional",
+    "analytics",
+    "marketing"
+  ],
+  "text": {
+    "title": "We value your privacy",
+    "body": "We use essential cookies and similar technologies to operate, secure, and provide core website features. These technologies remain active because they are necessary for the website to function. With your permission, we also use optional technologies to analyze website traffic, personalize content, and support advertising. Select Accept All to allow optional technologies, Reject All to use only those necessary for website functionality, or Customize to manage your preferences.",
+    "acceptAll": "Accept All",
+    "rejectAll": "Reject All",
+    "preferences": "Customize",
+    "save": "Save My Preferences",
+    "preferencesTitle": "Customize Consent Preferences",
+    "prefsIntro": "We use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below.",
+    "settingsButton": "Manage consent",
+    "policyLabel": "Privacy Policy",
+    "gpcConfirmation": "Your Global Privacy Control opt-out signal was detected and honored.",
+    "dnsLabel": "Do Not Sell or Share My Personal Information",
+    "dnsConfirmation": "You have opted out of the sale/sharing of your personal information."
+  },
+  "categoryText": {
+    "essential": {
+      "label": "Necessary",
+      "description": "Necessary cookies are required to enable the basic features of this site, such as providing secure log-in or adjusting your consent preferences. These cookies do not store any personally identifiable data."
+    },
+    "functional": {
+      "label": "Functional",
+      "description": "Functional cookies help perform certain functionalities like sharing the content of the website on social media platforms, collecting feedback, and other third-party features."
+    },
+    "analytics": {
+      "label": "Analytics",
+      "description": "Analytical cookies are used to understand how visitors interact with the website. These cookies help provide information on metrics such as the number of visitors, bounce rate, traffic source, etc."
+    },
+    "marketing": {
+      "label": "Advertisement",
+      "description": "Advertisement cookies are used to provide visitors with customized advertisements based on the pages you visited previously and to analyze the effectiveness of the ad campaigns."
+    }
+  },
+  "revisitButton": false,
+  "showReject": true,
+  "showPreferences": true,
+  "reloadOnChoice": false,
+  "gcmEnabled": true,
+  "gcmAdsDataRedaction": true,
+  "gcmUrlPassthrough": true,
+  "gpcEnabled": true,
+  "gpcShowConfirmation": true,
+  "dnsEnabled": true,
+  "autoclear": true,
+  "logging": true,
+  "layout": "banner",
+  "position": "bottom",
+  "theme": "light",
+  "revisitPosition": "bottom-left",
+  "primaryColor": "#0a3d70",
+  "buttonTextColor": "#ffffff",
+  "textColor": "#0f0f0f",
+  "backgroundColor": "#ffffff",
+  "fontFamily": "inherit",
+  "fontSize": 14,
+  "defaultOn": [],
+  "necessaryCategories": [],
+  "cookies": [
+    {
+      "id": "ck_6a6b1a00c18b4",
+      "name": "PHPSESSID",
+      "domain": ".kenworthsalesco.com",
+      "duration": "session",
+      "description": "This cookie is native to PHP applications. The cookie stores and identifies a user's unique session ID to manage user sessions on the website. The cookie is a session cookie and will be deleted when all the browser windows are closed.",
+      "category": "essential",
+      "pattern": "",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b1a291caa8",
+      "name": "rc::a",
+      "domain": ".google.com",
+      "duration": "Never Expires",
+      "description": "This cookie is set by the Google recaptcha service to identify bots to protect the website against malicious spam attacks.",
+      "category": "essential",
+      "pattern": "google.com",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b1a48f41d1",
+      "name": "__Secure-YEC",
+      "domain": ".youtube.com",
+      "duration": "past",
+      "description": "YouTube sets this cookie to stores the user's video player preferences using embedded YouTube video",
+      "category": "functional",
+      "pattern": "",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b1a635ce4f",
+      "name": "TS01*",
+      "domain": ".paycomonline.net",
+      "duration": "Session",
+      "description": "Wix sets this cookie for security and anti-fraud purposes.",
+      "category": "essential",
+      "pattern": "static.parastorage.com",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b1a8449fee",
+      "name": "XSRF-TOKEN",
+      "domain": ".paycomonline.net",
+      "duration": "past",
+      "description": "This cookie enhances visitor browsing security by preventing cross-site request forgery.",
+      "category": "essential",
+      "pattern": "static.parastorage.com",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b1aaaa5a33",
+      "name": "VISITOR_PRIVACY_METADATA",
+      "domain": ".youtube.com",
+      "duration": "6 months",
+      "description": "YouTube sets this cookie to manage feature rollout and experimentation. It helps Google control which new features or interface changes are shown to users as part of testing and staged rollouts, ensuring consistent experience for a given user during an experiment.",
+      "category": "functional",
+      "pattern": "youtube.com",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b1ad127c54",
+      "name": "YSC",
+      "domain": ".youtube.com",
+      "duration": "Session",
+      "description": "YSC cookie is set by Youtube and is used to track the views of embedded videos on Youtube pages.",
+      "category": "functional",
+      "pattern": "youtube.com",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b1af77274f",
+      "name": "VISITOR_INFO1_LIVE",
+      "domain": ".youtube.com",
+      "duration": "6 months",
+      "description": "A cookie set by YouTube to measure bandwidth that determines whether the user gets the new or old player interface.",
+      "category": "functional",
+      "pattern": "youtube.com",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b1b1ee5743",
+      "name": "yt-remote-connected-devices",
+      "domain": "youtube.com",
+      "duration": "Never Expires",
+      "description": "YouTube sets this cookie to store the user's video preferences using embedded YouTube videos.",
+      "category": "functional",
+      "pattern": "youtube.com",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b1b41f1d78",
+      "name": "ytidb::LAST_RESULT_ENTRY_KEY",
+      "domain": ".youtube.com",
+      "duration": "Never Expires",
+      "description": "The cookie ytidb::LAST_RESULT_ENTRY_KEY is used by YouTube to store the last search result entry that was clicked by the user. This information is used to improve the user experience by providing more relevant search results in the future.",
+      "category": "functional",
+      "pattern": "youtube.com",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b1b5f842a8",
+      "name": "yt-remote-device-id",
+      "domain": ".youtube.com",
+      "duration": "Never Expires",
+      "description": "YouTube sets this cookie to store the user's video preferences using embedded YouTube videos.",
+      "category": "functional",
+      "pattern": "youtube.com",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b1b81dccf9",
+      "name": "yt-remote-session-name",
+      "domain": ".youtube.com",
+      "duration": "Session",
+      "description": "The yt-remote-session-name cookie is used by YouTube to store the user's video player preferences using embedded YouTube video.",
+      "category": "functional",
+      "pattern": "youtube.com",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b1b9dd48c4",
+      "name": "yt-remote-fast-check-period",
+      "domain": ".youtube.com",
+      "duration": "Session",
+      "description": "The yt-remote-fast-check-period cookie is used by YouTube to store the user's video player preferences for embedded YouTube videos.",
+      "category": "functional",
+      "pattern": "youtube.com",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b1bbf6f58d",
+      "name": "yt-remote-session-app",
+      "domain": ".youtube.com",
+      "duration": "Session",
+      "description": "The yt-remote-session-app cookie is used by YouTube to store user preferences and information about the interface of the embedded YouTube video player.",
+      "category": "functional",
+      "pattern": "youtube.com",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b1bbfd2b85",
+      "name": "yt-remote-session-app",
+      "domain": ".youtube.com",
+      "duration": "Session",
+      "description": "The yt-remote-session-app cookie is used by YouTube to store user preferences and information about the interface of the embedded YouTube video player.",
+      "category": "functional",
+      "pattern": "youtube.com",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b1be144461",
+      "name": "yt-remote-cast-available",
+      "domain": ".youtube.com",
+      "duration": "Session",
+      "description": "The yt-remote-cast-installed cookie is used to store the user's video player preferences using embedded YouTube video.",
+      "category": "functional",
+      "pattern": "youtube.com",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b1bfbc895b",
+      "name": "cookie-law-info",
+      "domain": ".kenworthsalesco.com",
+      "duration": "1 years",
+      "description": "Stores the user's cookie consent preferences.",
+      "category": "essential",
+      "pattern": "",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b1c1b4d174",
+      "name": "_ckyGcm",
+      "domain": ".kenworthsalesco.com",
+      "duration": "1 years",
+      "description": "Stores the Google Consent Mode state used by Buzznerd consent.",
+      "category": "essential",
+      "pattern": "",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b1c4d82d04",
+      "name": "_userway_",
+      "domain": ".userway.org",
+      "duration": "Session",
+      "description": "UserWay accessibility widget",
+      "category": "functional",
+      "pattern": "userway.org",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b1c6915f8f",
+      "name": "_userway_",
+      "domain": ".userway.org",
+      "duration": "Session",
+      "description": "UserWay accessibility widget",
+      "category": "functional",
+      "pattern": "api.userway.org",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b1c9536ddd",
+      "name": "_userway_",
+      "domain": ".userway.org",
+      "duration": "Session",
+      "description": "UserWay accessibility widget",
+      "category": "functional",
+      "pattern": "cdn.userway.org/widgetapp",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b1cc8593be",
+      "name": "WooCommerce Cart Fragments",
+      "domain": ".kenworthsalesco.com",
+      "duration": "Session",
+      "description": "Loads WooCommerce cart fragments to refresh cart contents and update the mini cart using AJAX.",
+      "category": "functional",
+      "pattern": "/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b1cec2994b",
+      "name": "woocommerce-menu-cart",
+      "domain": ".kenworthsalesco.com",
+      "duration": "Session",
+      "description": "Used by the WooCommerce Menu Cart functionality to update the cart via AJAX. This website does not use cart or checkout functionality, so this script is manually blocked before user consent.",
+      "category": "functional",
+      "pattern": "/wp-content/plugins/elementor-pro/assets/js/woocommerce-menu-cart-7e2.bundle.min.js",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b1decc3306",
+      "name": "algolia_user_token_1",
+      "domain": "",
+      "duration": "",
+      "description": "Description is currently not available.",
+      "category": "functional",
+      "pattern": "",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b1e5b2416c",
+      "name": "_ga_*",
+      "domain": ".kenworthsalesco.com",
+      "duration": "",
+      "description": "Google Analytics sets this cookie to store and count page views.",
+      "category": "analytics",
+      "pattern": "google-analytics.com|googletagmanager.com/gtag/js",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b1e7899ac4",
+      "name": "_ga",
+      "domain": ".kenworthsalesco.com",
+      "duration": "",
+      "description": "Google Analytics sets this cookie to calculate visitor, session and campaign data and track site usage for the site's analytics report. The cookie stores information anonymously and assigns a randomly generated number to recognise unique visitors.",
+      "category": "analytics",
+      "pattern": "google-analytics.com|googletagmanager.com/gtag/js",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b839f398c4",
+      "name": "rc::c",
+      "domain": "google.com",
+      "duration": "Session",
+      "description": "This cookie is set by the Google recaptcha service to identify bots to protect the website against malicious spam attacks.",
+      "category": "essential",
+      "pattern": "google.com",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6b83f809d98",
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "domain": ".youtube.com",
+      "duration": "6 months",
+      "description": "YouTube sets this cookie to manage feature rollout and experimentation. It helps Google control which new features or interface changes are shown to users as part of testing and staged rollouts, ensuring consistent experience for a given user during an experiment.",
+      "category": "functional",
+      "pattern": "youtube.com",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a6d056556251",
+      "name": "_GRECAPTCHA",
+      "domain": "",
+      "duration": "",
+      "description": "",
+      "category": "essential",
+      "pattern": "",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a72316fb6b8d",
+      "name": "_fbp",
+      "domain": "",
+      "duration": "3 months",
+      "description": "",
+      "category": "marketing",
+      "pattern": "connect.facebook.net|facebook.com/tr",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a72319b19a5a",
+      "name": "Search Insights",
+      "domain": "",
+      "duration": "",
+      "description": "",
+      "category": "analytics",
+      "pattern": "search-insights.min.js|cdn.jsdelivr.net/npm/search-insights",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a7231b6e0d46",
+      "name": "Admin_Ajax",
+      "domain": "",
+      "duration": "",
+      "description": "",
+      "category": "functional",
+      "pattern": "/wp-admin/admin-ajax.php",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a734ee35209b",
+      "name": "NID",
+      "domain": "",
+      "duration": "",
+      "description": "Stores user preferences and supports Google services such as Maps, reCAPTCHA, or embedded content. May also be used for ad personalization depending on context.",
+      "category": "marketing",
+      "pattern": "",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_6a7a3040edb4d",
+      "name": "Jetpack WordPress Stats-",
+      "domain": "",
+      "duration": "",
+      "description": "",
+      "category": "analytics",
+      "pattern": "stats.wp.com/w.js|stats.wp.com|.*stats\\.wp\\.com.*|pixel.wp.com|pixel.wp.com/g.gif",
+      "httpOnly": false,
+      "enabled": true
+    }
+  ]
+}
