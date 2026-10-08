@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "stylesheets": [],
+  "slots": {
+    "search": {
+      "src": "https://vendure.aionerds.com/assets/source/14/search.svg"
+    }
+  }
+}
