@@ -18,7 +18,8 @@
         { "key": "postalCode", "type": "text", "label": "ZIP" },
         { "key": "phone", "type": "text", "label": "Phone" },
         { "key": "phoneUrl", "type": "url", "label": "Phone link" },
-        { "key": "mapUrl", "type": "url", "label": "Directions link" }
+        { "key": "mapUrl", "type": "url", "label": "Directions link" },
+        { "key": "hours", "type": "textarea", "label": "Opening hours" }
       ]
     }
   ],
@@ -41,6 +42,7 @@
                 { "id": "lh-title", "type": "heading", "props": { "eyebrow": "{{eyebrow}}", "text": "{{name}}", "headingLevel": 1 } },
                 { "id": "lh-subtitle", "type": "text", "props": { "text": "<strong>{{subtitle}}</strong>" } },
                 { "id": "lh-address", "type": "text", "props": { "text": "{{streetAddress}}, {{city}}, {{region}} {{postalCode}}" } },
+                { "id": "lh-hours", "type": "text", "props": { "text": "{{hours}}" } },
                 {
                   "id": "lh-ctas",
                   "type": "buttons",
