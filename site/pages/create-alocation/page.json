@@ -1,0 +1,96 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "location-main",
+      "type": "section",
+      "props": {
+        "width": "wide",
+        "paddingY": 7
+      },
+      "children": [
+        {
+          "id": "location-row",
+          "type": "row",
+          "props": {
+            "gap": 6,
+            "stackOn": "mobile"
+          },
+          "children": [
+            {
+              "id": "location-info",
+              "type": "column",
+              "props": {
+                "span": 8
+              },
+              "children": [
+                {
+                  "id": "location-heading",
+                  "type": "heading",
+                  "props": {
+                    "text": "Our Location",
+                    "headingLevel": 1
+                  }
+                },
+                {
+                  "id": "location-description",
+                  "type": "text",
+                  "props": {
+                    "text": "We welcome you to visit our dealership at the address below. Our friendly staff are ready to assist you with all your needs."
+                  }
+                },
+                {
+                  "id": "location-address",
+                  "type": "text",
+                  "props": {
+                    "text": "123 Main Street, Hometown, USA"
+                  }
+                },
+                {
+                  "id": "location-hours",
+                  "type": "widget",
+                  "props": {
+                    "widget": "hours"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "location-map",
+              "type": "column",
+              "props": {
+                "span": 4
+              },
+              "children": [
+                {
+                  "id": "location-map-widget",
+                  "type": "widget",
+                  "props": {
+                    "widget": "locations-map",
+                    "config": {}
+                  }
+                }
+              ]
+            },
+            {
+              "id": "location-time",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "location-time-text",
+                  "type": "text",
+                  "props": {
+                    "text": "As of today, our opening hours have been updated."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

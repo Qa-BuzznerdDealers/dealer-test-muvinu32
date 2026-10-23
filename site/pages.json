@@ -17,5 +17,22 @@
       "utilityNav": null
     },
     "pageType": "Home"
+  },
+  {
+    "slug": "create-alocation",
+    "dir": "create-alocation",
+    "title": "Create Alocation",
+    "path": "/create-alocation",
+    "out": "create-alocation/index.html",
+    "status": "draft",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
   }
 ]
