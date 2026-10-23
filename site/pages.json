@@ -38,5 +38,25 @@
       "utilityNav": null
     },
     "description": "Location"
+  },
+  {
+    "slug": "location-detail",
+    "title": "{{name}}",
+    "description": "Visit {{name}} at {{streetAddress}}, {{city}}, {{region}}. Call {{phone}} for sales, service and parts.",
+    "path": "/locations/:slug",
+    "out": "locations/:slug/index.html",
+    "dir": "location-detail",
+    "group": "locations",
+    "forEach": "locations",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
   }
 ]
