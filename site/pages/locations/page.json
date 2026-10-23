@@ -1,0 +1,220 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "locs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "background": "ink",
+        "paddingY": 9,
+        "minHeight": "half",
+        "align": "center"
+      },
+      "children": [
+        {
+          "id": "locs-row",
+          "type": "row",
+          "props": {},
+          "children": [
+            {
+              "id": "locs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "locs-h",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "Home / Locations & hours",
+                    "text": "Locations & hours",
+                    "headingLevel": 1,
+                    "align": "center"
+                  }
+                },
+                {
+                  "id": "locs-intro",
+                  "type": "text",
+                  "props": {
+                    "text": "Every location for trucks, trailers, parts, service and aftermarket work \u2014 with each department's hours, straight from our records.",
+                    "align": "center"
+                  }
+                },
+                {
+                  "id": "locs-ctas",
+                  "type": "buttons",
+                  "props": {
+                    "align": "center",
+                    "items": [
+                      {
+                        "ctaId": "see-all-locations"
+                      },
+                      {
+                        "ctaId": "call-us"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "locs-find",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "location-cards",
+        "values": {
+          "eyebrow": "Find a location",
+          "heading": "Ready to find the right equipment for your business?",
+          "intro": "Visit us at any of our locations. Each card shows the departments at that site and their opening hours.",
+          "locations": {
+            "source": "locations",
+            "config": {
+              "pagePathPrefix": "/locations"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "locs-after",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "feature-split",
+        "values": {
+          "eyebrow": "When we're closed",
+          "heading": "Coverage outside store hours.",
+          "body": "Breakdowns don't keep business hours. Call us any time and we'll make sure your truck gets the help it needs.\n\nOur mobile service team can also come to your yard or job site for repairs, diagnostics and preventative maintenance."
+        }
+      }
+    },
+    {
+      "id": "locs-depts",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 8
+      },
+      "children": [
+        {
+          "id": "locs-depts-row",
+          "type": "row",
+          "props": {},
+          "children": [
+            {
+              "id": "locs-depts-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "locs-depts-grid",
+                  "type": "serviceGrid",
+                  "props": {
+                    "heading": "Departments by site.",
+                    "body": "What you'll find at our locations. Each location card above lists exactly which departments that site has.",
+                    "items": [
+                      {
+                        "label": "Truck sales",
+                        "desc": "New and used trucks, with specialists to help you spec the right one."
+                      },
+                      {
+                        "label": "Trailer sales",
+                        "desc": "New and used trailers for every kind of haul."
+                      },
+                      {
+                        "label": "Parts",
+                        "desc": "Parts counters stocked for the brands we carry, with fast special orders."
+                      },
+                      {
+                        "label": "Service & aftermarket",
+                        "desc": "Service bays, body work and aftermarket upfits."
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "locs-faq",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "background": "paper",
+        "paddingY": 8
+      },
+      "children": [
+        {
+          "id": "locs-faq-row",
+          "type": "row",
+          "props": {},
+          "children": [
+            {
+              "id": "locs-faq-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "locs-faq-h",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "Location FAQs",
+                    "text": "Common questions.",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "locs-faq-list",
+                  "type": "widget",
+                  "props": {
+                    "widget": "faq",
+                    "config": {
+                      "items": [
+                        {
+                          "q": "What are each location's hours?",
+                          "a": "Every location card above lists the opening hours for each of its departments. They are updated whenever our hours change."
+                        },
+                        {
+                          "q": "Does every location have the same departments?",
+                          "a": "Not always. Each card lists the departments at that location, and its own page has the full details."
+                        },
+                        {
+                          "q": "Can I get help after hours?",
+                          "a": "Yes. Call us and we will arrange support, and our mobile service team can come to your yard or job site."
+                        },
+                        {
+                          "q": "How do I book service?",
+                          "a": "Use the Schedule service link on this page, or call the location nearest you."
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "locs-cta",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "cta-band",
+        "values": {}
+      }
+    }
+  ]
+}

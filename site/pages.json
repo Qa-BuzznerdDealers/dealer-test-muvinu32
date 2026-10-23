@@ -58,5 +58,24 @@
       "footer": null,
       "utilityNav": null
     }
+  },
+  {
+    "slug": "locations",
+    "title": "Locations & Hours",
+    "description": "Every location, with its departments and opening hours, kept current from our records.",
+    "path": "/locations",
+    "out": "locations/index.html",
+    "dir": "locations",
+    "group": "locations",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
   }
 ]

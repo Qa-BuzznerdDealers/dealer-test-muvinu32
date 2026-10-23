@@ -47,21 +47,39 @@
     "active": true
   },
   {
-    "id": "call-location",
-    "label": "Call this location",
-    "url": "tel:+15551234567",
-    "style": "primary",
-    "intent": "call-dealer",
-    "newTab": false,
-    "active": true
-  },
-  {
     "id": "get-directions",
     "label": "Get directions",
     "url": "https://maps.google.com",
     "style": "secondary",
     "intent": "get-directions",
     "newTab": true,
+    "active": true
+  },
+  {
+    "id": "see-all-locations",
+    "label": "See all locations",
+    "url": "#find",
+    "style": "primary",
+    "intent": "find-location",
+    "newTab": false,
+    "active": true
+  },
+  {
+    "id": "email-us",
+    "label": "Email us",
+    "url": "mailto:sales@example.com",
+    "style": "secondary",
+    "intent": "email-dealer",
+    "newTab": false,
+    "active": true
+  },
+  {
+    "id": "view-location",
+    "label": "View location",
+    "url": "/locations",
+    "style": "link",
+    "intent": "find-location",
+    "newTab": false,
     "active": true
   }
 ]

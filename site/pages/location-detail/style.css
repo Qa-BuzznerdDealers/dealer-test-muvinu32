@@ -1,0 +1,7 @@
+/* Location page — department hours as a row of cards, headings in caps, as in the design. */
+[data-bz-node="ld-visit"] h2,
+[data-bz-node="ld-help"] h2 { text-transform: uppercase }
+[data-bz-node="ld-hours"] { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-5) }
+[data-bz-node="ld-hours"] .bz-hours { width: 100%; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-card); padding: var(--space-4) }
+[data-bz-node="ld-hours"] .bz-hours caption { text-align: left; text-transform: uppercase; font-weight: 700; padding: var(--space-4) var(--space-4) var(--space-2) }
+[data-bz-node="ld-hours"] .bz-hours td:last-child { text-align: right; color: var(--muted) }

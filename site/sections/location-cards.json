@@ -1,0 +1,236 @@
+{
+  "version": 2,
+  "id": "location-cards",
+  "name": "Location cards",
+  "props": [
+    {
+      "key": "eyebrow",
+      "type": "text",
+      "label": "Small label",
+      "default": "Find a location"
+    },
+    {
+      "key": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": "Ready to find the right equipment for your business?"
+    },
+    {
+      "key": "intro",
+      "type": "textarea",
+      "label": "Intro",
+      "default": ""
+    },
+    {
+      "key": "basemap",
+      "type": "image",
+      "label": "Map artwork"
+    },
+    {
+      "key": "locations",
+      "type": "list",
+      "label": "Locations",
+      "fields": [
+        {
+          "key": "name",
+          "type": "text",
+          "label": "Name"
+        },
+        {
+          "key": "subtitle",
+          "type": "text",
+          "label": "Business name"
+        },
+        {
+          "key": "departments",
+          "type": "text",
+          "label": "Departments"
+        },
+        {
+          "key": "streetAddress",
+          "type": "text",
+          "label": "Street"
+        },
+        {
+          "key": "city",
+          "type": "text",
+          "label": "City"
+        },
+        {
+          "key": "region",
+          "type": "text",
+          "label": "State"
+        },
+        {
+          "key": "postalCode",
+          "type": "text",
+          "label": "ZIP"
+        },
+        {
+          "key": "phone",
+          "type": "text",
+          "label": "Phone"
+        },
+        {
+          "key": "phoneUrl",
+          "type": "url",
+          "label": "Phone link"
+        },
+        {
+          "key": "mapUrl",
+          "type": "url",
+          "label": "Directions link"
+        },
+        {
+          "key": "href",
+          "type": "url",
+          "label": "Location page"
+        },
+        {
+          "key": "hoursRows",
+          "type": "list",
+          "label": "Opening hours, by department",
+          "fields": [
+            {
+              "key": "department",
+              "type": "text",
+              "label": "Department"
+            },
+            {
+              "key": "summary",
+              "type": "text",
+              "label": "Whole week, in one line"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "lc-band",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 8,
+        "anchor": "find"
+      },
+      "children": [
+        {
+          "id": "lc-head",
+          "type": "row",
+          "props": {},
+          "children": [
+            {
+              "id": "lc-head-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "lc-title",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "{{eyebrow}}",
+                    "text": "{{heading}}",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "lc-intro",
+                  "type": "text",
+                  "props": {
+                    "text": "{{intro}}"
+                  }
+                },
+                {
+                  "id": "lc-map",
+                  "type": "widget",
+                  "props": {
+                    "widget": "locations-pinmap",
+                    "config": {
+                      "pagePathPrefix": "/locations",
+                      "basemap": "{{basemap}}"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lc-grid",
+          "type": "row",
+          "props": {
+            "gap": 5
+          },
+          "children": [
+            {
+              "id": "lc-card",
+              "type": "column",
+              "props": {
+                "span": 4,
+                "repeat": "locations"
+              },
+              "children": [
+                {
+                  "id": "lc-card-name",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "{{departments}}",
+                    "text": "{{name}}",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "lc-card-sub",
+                  "type": "text",
+                  "props": {
+                    "text": "{{subtitle}}"
+                  }
+                },
+                {
+                  "id": "lc-card-addr",
+                  "type": "text",
+                  "props": {
+                    "text": "{{streetAddress}}, {{city}}, {{region}} {{postalCode}}"
+                  }
+                },
+                {
+                  "id": "lc-card-hours",
+                  "type": "text",
+                  "props": {
+                    "repeat": "hoursRows",
+                    "text": "<strong>{{department}}:</strong> <em>{{summary}}</em>"
+                  }
+                },
+                {
+                  "id": "lc-card-contact",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"{{phoneUrl}}\">{{phone}}</a> <a href=\"{{mapUrl}}\">Directions \u2192</a>"
+                  }
+                },
+                {
+                  "id": "lc-card-links",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "view-location",
+                        "url": "{{href}}",
+                        "style": "link"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "css": "[data-bz-node=\"lc-grid\"] > .bz-col { border: 1px solid var(--line); border-radius: var(--radius-card); background: var(--card); padding: var(--space-5); display: flex; flex-direction: column; gap: var(--space-2) }\n[data-bz-node=\"lc-grid\"] > .bz-col h3 { text-transform: uppercase; font-size: var(--text-body); letter-spacing: .04em; margin: 0 }\n[data-bz-node=\"lc-grid\"] > .bz-col p { font-size: var(--text-small); color: var(--muted); margin: 0 }\n[data-bz-node=\"lc-grid\"] > .bz-col [data-bz-node^=\"lc-card-hours\"] { border-top: 1px solid var(--line); padding-top: var(--space-2) }\n[data-bz-node=\"lc-grid\"] > .bz-col [data-bz-node^=\"lc-card-links\"] { margin-top: auto; padding-top: var(--space-3) }\n[data-bz-node=\"lc-band\"] .bz-pinmap { background: var(--paper); border-radius: var(--radius-card); margin: var(--space-6) 0 }\n[data-bz-node=\"lc-grid\"] [data-bz-node^=\"lc-card-hours\"] em { font-style: normal }\n/* A department with no hours in Admin, or a branch with no phone or map link, draws nothing rather than an empty label. */\n[data-bz-node=\"lc-grid\"] [data-bz-node^=\"lc-card-hours\"]:has(em:empty) { display: none }\n[data-bz-node=\"lc-grid\"] [data-bz-node^=\"lc-card-contact\"] a { margin-right: var(--space-4); font-weight: 600 }\n[data-bz-node=\"lc-grid\"] [data-bz-node^=\"lc-card-contact\"] a:empty, [data-bz-node=\"lc-grid\"] [data-bz-node^=\"lc-card-contact\"] a[href=\"#\"] { display: none }"
+}

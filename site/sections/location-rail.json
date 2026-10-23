@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "id": "location-rail",
+  "name": "Other locations",
+  "css": "[data-bz-node=\"lr-grid\"] > .bz-col { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-card); padding: var(--space-5); display: flex; flex-direction: column; gap: var(--space-2) }\n[data-bz-node=\"lr-band\"] h2, [data-bz-node=\"lr-grid\"] h3 { text-transform: uppercase }\n[data-bz-node=\"lr-grid\"] h3 { font-size: var(--text-body); margin: 0 }\n[data-bz-node=\"lr-grid\"] p { font-size: var(--text-small); color: var(--muted); margin: 0 }\n[data-bz-node=\"lr-grid\"] [data-bz-node^=\"lr-card-phone\"] a { font-weight: 600 }\n[data-bz-node=\"lr-grid\"] [data-bz-node^=\"lr-card-phone\"] a[href=\"#\"] { display: none }\n[data-bz-node=\"lr-grid\"] [data-bz-node^=\"lr-card-link\"] { margin-top: auto }",
+  "props": [
+    { "key": "locationSlug", "type": "text", "label": "Location (filled in per page)", "default": "" },
+    { "key": "eyebrow", "type": "text", "label": "Small label", "default": "Find a location" },
+    { "key": "heading", "type": "text", "label": "Heading", "default": "Other locations." },
+    { "key": "intro", "type": "textarea", "label": "Intro", "default": "Ready to find the right commercial trucks for your business? Visit us at any of our locations." },
+    {
+      "key": "locations",
+      "type": "list",
+      "label": "Locations",
+      "fields": [
+        { "key": "name", "type": "text", "label": "Name" },
+        { "key": "departments", "type": "text", "label": "Departments" },
+        { "key": "streetAddress", "type": "text", "label": "Street" },
+        { "key": "city", "type": "text", "label": "City" },
+        { "key": "region", "type": "text", "label": "State" },
+        { "key": "postalCode", "type": "text", "label": "ZIP" },
+        { "key": "hours", "type": "textarea", "label": "Opening hours" },
+        { "key": "phone", "type": "text", "label": "Phone" },
+        { "key": "phoneUrl", "type": "url", "label": "Phone link" },
+        { "key": "href", "type": "url", "label": "Location page" }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "lr-band",
+      "type": "section",
+      "props": { "width": "boxed", "background": "paper", "paddingY": 8 },
+      "children": [
+        { "id": "lr-head", "type": "row", "props": {}, "children": [
+          { "id": "lr-head-col", "type": "column", "props": { "span": 12 }, "children": [
+            { "id": "lr-h", "type": "heading", "props": { "eyebrow": "{{eyebrow}}", "text": "{{heading}}", "headingLevel": 2 } },
+            { "id": "lr-intro", "type": "text", "props": { "text": "{{intro}}" } }
+          ] }
+        ] },
+        { "id": "lr-grid", "type": "row", "props": { "gap": 4 }, "children": [
+          { "id": "lr-card", "type": "column", "props": { "span": 3, "repeat": "locations" }, "children": [
+            { "id": "lr-card-name", "type": "heading", "props": { "eyebrow": "{{departments}}", "text": "{{name}}", "headingLevel": 3 } },
+            { "id": "lr-card-addr", "type": "text", "props": { "text": "{{streetAddress}}, {{city}}, {{region}} {{postalCode}}" } },
+            { "id": "lr-card-hours", "type": "text", "props": { "text": "{{hours}}" } },
+            { "id": "lr-card-phone", "type": "text", "props": { "text": "<a href=\"{{phoneUrl}}\">{{phone}}</a>" } },
+            { "id": "lr-card-link", "type": "buttons", "props": { "items": [{ "ctaId": "view-location", "url": "{{href}}", "style": "link" }] } }
+          ] }
+        ] }
+      ]
+    }
+  ]
+}

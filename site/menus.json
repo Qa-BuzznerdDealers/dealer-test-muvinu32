@@ -17,6 +17,18 @@
             { "id": "about-history", "label": "History", "type": "url", "url": "/about#history" }
           ]
         },
+        {
+          "id": "locations",
+          "label": "Locations",
+          "type": "page",
+          "ref": "locations",
+          "children": [
+            { "id": "loc-bismarck", "label": "Bismarck", "type": "location", "ref": "bismarck" },
+            { "id": "loc-texas", "label": "Texas", "type": "location", "ref": "main" },
+            { "id": "loc-tampa", "label": "Tampa", "type": "location", "ref": "tampa" },
+            { "id": "loc-all", "label": "All locations", "type": "page", "ref": "locations" }
+          ]
+        },
         { "id": "contact", "label": "Contact", "type": "url", "url": "/contact" }
       ]
     },
