@@ -63,37 +63,37 @@
                         },
                         {
                           "day": "Monday",
-                          "hours": "07:00 AM - 06:00 PM",
+                          "hours": "07:00 - 18:00",
                           "opensAt": "07:00",
                           "closesAt": "18:00"
                         },
                         {
                           "day": "Tuesday",
-                          "hours": "07:00 AM - 06:00 PM",
+                          "hours": "07:00 - 18:00",
                           "opensAt": "07:00",
                           "closesAt": "18:00"
                         },
                         {
                           "day": "Wednesday",
-                          "hours": "07:00 AM - 06:00 PM",
+                          "hours": "07:00 - 18:00",
                           "opensAt": "07:00",
                           "closesAt": "18:00"
                         },
                         {
                           "day": "Thursday",
-                          "hours": "07:00 AM - 06:00 PM",
+                          "hours": "07:00 - 18:00",
                           "opensAt": "07:00",
                           "closesAt": "18:00"
                         },
                         {
                           "day": "Friday",
-                          "hours": "07:00 AM - 06:00 PM",
+                          "hours": "07:00 - 18:00",
                           "opensAt": "07:00",
                           "closesAt": "18:00"
                         },
                         {
                           "day": "Saturday",
-                          "hours": "08:00 AM - 02:00 PM",
+                          "hours": "08:00 - 14:00",
                           "opensAt": "08:00",
                           "closesAt": "14:00"
                         }
@@ -110,37 +110,37 @@
                             },
                             {
                               "day": "Monday",
-                              "hours": "07:00 AM - 06:00 PM",
+                              "hours": "07:00 - 18:00",
                               "opensAt": "07:00",
                               "closesAt": "18:00"
                             },
                             {
                               "day": "Tuesday",
-                              "hours": "07:00 AM - 06:00 PM",
+                              "hours": "07:00 - 18:00",
                               "opensAt": "07:00",
                               "closesAt": "18:00"
                             },
                             {
                               "day": "Wednesday",
-                              "hours": "07:00 AM - 06:00 PM",
+                              "hours": "07:00 - 18:00",
                               "opensAt": "07:00",
                               "closesAt": "18:00"
                             },
                             {
                               "day": "Thursday",
-                              "hours": "07:00 AM - 06:00 PM",
+                              "hours": "07:00 - 18:00",
                               "opensAt": "07:00",
                               "closesAt": "18:00"
                             },
                             {
                               "day": "Friday",
-                              "hours": "07:00 AM - 06:00 PM",
+                              "hours": "07:00 - 18:00",
                               "opensAt": "07:00",
                               "closesAt": "18:00"
                             },
                             {
                               "day": "Saturday",
-                              "hours": "08:00 AM - 02:00 PM",
+                              "hours": "08:00 - 14:00",
                               "opensAt": "08:00",
                               "closesAt": "14:00"
                             }
@@ -157,31 +157,31 @@
                             },
                             {
                               "day": "Monday",
-                              "hours": "09:00 AM - 05:00 PM",
+                              "hours": "09:00 - 17:00",
                               "opensAt": "09:00",
                               "closesAt": "17:00"
                             },
                             {
                               "day": "Tuesday",
-                              "hours": "09:00 AM - 05:00 PM",
+                              "hours": "09:00 - 17:00",
                               "opensAt": "09:00",
                               "closesAt": "17:00"
                             },
                             {
                               "day": "Wednesday",
-                              "hours": "09:00 AM - 05:00 PM",
+                              "hours": "09:00 - 17:00",
                               "opensAt": "09:00",
                               "closesAt": "17:00"
                             },
                             {
                               "day": "Thursday",
-                              "hours": "09:00 AM - 05:00 PM",
+                              "hours": "09:00 - 17:00",
                               "opensAt": "09:00",
                               "closesAt": "17:00"
                             },
                             {
                               "day": "Friday",
-                              "hours": "09:00 AM - 05:00 PM",
+                              "hours": "09:00 - 17:00",
                               "opensAt": "09:00",
                               "closesAt": "17:00"
                             },
@@ -241,7 +241,7 @@
                           "perk2": null,
                           "perk3": null,
                           "departments": "Sales · Used Sales",
-                          "hours": "Sales: 07:00 AM - 06:00 PM Mon–Fri, 08:00 AM - 02:00 PM Sat\n\nUsed Sales: 09:00 AM - 05:00 PM Mon–Fri",
+                          "hours": "Sales: 07:00 - 18:00 Mon–Fri, 08:00 - 14:00 Sat\n\nUsed Sales: 09:00 - 17:00 Mon–Fri",
                           "phone2": null,
                           "phone2Url": null,
                           "phone3": null,
@@ -266,7 +266,7 @@
                               "phone": null,
                               "phoneUrl": null,
                               "email": null,
-                              "hours": "07:00 AM - 06:00 PM Mon–Fri, 08:00 AM - 02:00 PM Sat"
+                              "hours": "07:00 - 18:00 Mon–Fri, 08:00 - 14:00 Sat"
                             },
                             {
                               "name": "Used Sales",
@@ -274,14 +274,14 @@
                               "phone": null,
                               "phoneUrl": null,
                               "email": null,
-                              "hours": "09:00 AM - 05:00 PM Mon–Fri"
+                              "hours": "09:00 - 17:00 Mon–Fri"
                             }
                           ],
                           "hoursRows": [
                             {
                               "department": "Sales",
                               "key": "sales",
-                              "summary": "07:00 AM - 06:00 PM Mon–Fri, 08:00 AM - 02:00 PM Sat",
+                              "summary": "07:00 - 18:00 Mon–Fri, 08:00 - 14:00 Sat",
                               "days": [
                                 {
                                   "day": "Sunday",
@@ -292,42 +292,42 @@
                                 },
                                 {
                                   "day": "Monday",
-                                  "hours": "07:00 AM - 06:00 PM",
+                                  "hours": "07:00 - 18:00",
                                   "opensAt": "07:00",
                                   "closesAt": "18:00",
                                   "closed": false
                                 },
                                 {
                                   "day": "Tuesday",
-                                  "hours": "07:00 AM - 06:00 PM",
+                                  "hours": "07:00 - 18:00",
                                   "opensAt": "07:00",
                                   "closesAt": "18:00",
                                   "closed": false
                                 },
                                 {
                                   "day": "Wednesday",
-                                  "hours": "07:00 AM - 06:00 PM",
+                                  "hours": "07:00 - 18:00",
                                   "opensAt": "07:00",
                                   "closesAt": "18:00",
                                   "closed": false
                                 },
                                 {
                                   "day": "Thursday",
-                                  "hours": "07:00 AM - 06:00 PM",
+                                  "hours": "07:00 - 18:00",
                                   "opensAt": "07:00",
                                   "closesAt": "18:00",
                                   "closed": false
                                 },
                                 {
                                   "day": "Friday",
-                                  "hours": "07:00 AM - 06:00 PM",
+                                  "hours": "07:00 - 18:00",
                                   "opensAt": "07:00",
                                   "closesAt": "18:00",
                                   "closed": false
                                 },
                                 {
                                   "day": "Saturday",
-                                  "hours": "08:00 AM - 02:00 PM",
+                                  "hours": "08:00 - 14:00",
                                   "opensAt": "08:00",
                                   "closesAt": "14:00",
                                   "closed": false
@@ -337,7 +337,7 @@
                             {
                               "department": "Used Sales",
                               "key": "used_sales",
-                              "summary": "09:00 AM - 05:00 PM Mon–Fri",
+                              "summary": "09:00 - 17:00 Mon–Fri",
                               "days": [
                                 {
                                   "day": "Sunday",
@@ -348,35 +348,35 @@
                                 },
                                 {
                                   "day": "Monday",
-                                  "hours": "09:00 AM - 05:00 PM",
+                                  "hours": "09:00 - 17:00",
                                   "opensAt": "09:00",
                                   "closesAt": "17:00",
                                   "closed": false
                                 },
                                 {
                                   "day": "Tuesday",
-                                  "hours": "09:00 AM - 05:00 PM",
+                                  "hours": "09:00 - 17:00",
                                   "opensAt": "09:00",
                                   "closesAt": "17:00",
                                   "closed": false
                                 },
                                 {
                                   "day": "Wednesday",
-                                  "hours": "09:00 AM - 05:00 PM",
+                                  "hours": "09:00 - 17:00",
                                   "opensAt": "09:00",
                                   "closesAt": "17:00",
                                   "closed": false
                                 },
                                 {
                                   "day": "Thursday",
-                                  "hours": "09:00 AM - 05:00 PM",
+                                  "hours": "09:00 - 17:00",
                                   "opensAt": "09:00",
                                   "closesAt": "17:00",
                                   "closed": false
                                 },
                                 {
                                   "day": "Friday",
-                                  "hours": "09:00 AM - 05:00 PM",
+                                  "hours": "09:00 - 17:00",
                                   "opensAt": "09:00",
                                   "closesAt": "17:00",
                                   "closed": false
