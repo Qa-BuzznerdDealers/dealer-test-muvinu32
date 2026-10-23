@@ -3,15 +3,34 @@
   "id": "cta-band",
   "name": "Call-to-action band",
   "props": [
-    { "key": "eyebrow", "type": "text", "label": "Small label", "default": "Contact us" },
-    { "key": "heading", "type": "text", "label": "Heading", "default": "Ready to get on the road?" },
-    { "key": "body", "type": "textarea", "label": "Body", "default": "Contact us to explore our trucks and trailers and experience nothing less than the dedicated care you deserve." }
+    {
+      "key": "eyebrow",
+      "type": "text",
+      "label": "Small label",
+      "default": "Contact us"
+    },
+    {
+      "key": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": "Ready to get on the road?"
+    },
+    {
+      "key": "body",
+      "type": "textarea",
+      "label": "Body",
+      "default": "Contact us to explore our trucks and trailers and experience nothing less than the dedicated care you deserve."
+    }
   ],
   "nodes": [
     {
       "id": "cta-band",
       "type": "section",
-      "props": { "width": "boxed", "background": "ink", "paddingY": 8 },
+      "props": {
+        "width": "boxed",
+        "background": "ink",
+        "paddingY": 8
+      },
       "children": [
         {
           "id": "cta-row",
@@ -21,16 +40,49 @@
             {
               "id": "cta-col",
               "type": "column",
-              "props": { "span": 12 },
+              "props": {
+                "span": 12
+              },
               "children": [
-                { "id": "cta-h", "type": "heading", "props": { "eyebrow": "{{eyebrow}}", "text": "{{heading}}", "headingLevel": 2, "align": "center" } },
-                { "id": "cta-body", "type": "text", "props": { "text": "{{body}}", "align": "center" } },
-                { "id": "cta-btns", "type": "buttons", "props": { "align": "center", "items": [{ "ctaId": "call-us" }, { "ctaId": "email-us" }] } }
+                {
+                  "id": "cta-h",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "{{eyebrow}}",
+                    "text": "{{heading}}",
+                    "headingLevel": 2,
+                    "align": "center"
+                  }
+                },
+                {
+                  "id": "cta-body",
+                  "type": "text",
+                  "props": {
+                    "text": "{{body}}",
+                    "align": "center"
+                  }
+                },
+                {
+                  "id": "cta-btns",
+                  "type": "buttons",
+                  "props": {
+                    "align": "center",
+                    "items": [
+                      {
+                        "ctaId": "call-us"
+                      },
+                      {
+                        "ctaId": "email-us"
+                      }
+                    ]
+                  }
+                }
               ]
             }
           ]
         }
       ]
     }
-  ]
+  ],
+  "css": "[data-bz-node=\"cta-band\"] h2 { text-transform: uppercase }\n[data-bz-node=\"cta-band\"] .bz-prose { margin-left: auto; margin-right: auto }"
 }

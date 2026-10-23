@@ -2,6 +2,7 @@
   "version": 2,
   "id": "location-header",
   "name": "Location header",
+  "css": "[data-bz-node^=\"lh-phone\"] a[href=\"\"], [data-bz-node^=\"lh-phone\"] a[href=\"#\"] { display: none }\n[data-bz-node^=\"lh-phone\"] p { text-align: center }\n[data-bz-node^=\"lh-phone\"] a { display: inline-block; background: var(--card); color: var(--ink); font-weight: 700; text-decoration: none; padding: var(--space-3) var(--space-5); border-radius: var(--radius-input) }\n[data-bz-node^=\"lh-title\"] h1, [data-bz-node^=\"lh-store-name\"] h2 { text-transform: uppercase }\n[data-bz-node^=\"lh-store-row\"] p { margin: 0 }\n[data-bz-node^=\"lh-offer\"] { background: var(--ink); color: var(--card); border-radius: var(--radius-card); padding: var(--space-5); margin-top: var(--space-5) }\n[data-bz-node^=\"lh-offer\"]:has(h3:empty) { display: none }\n[data-bz-node^=\"lh-store-map\"] .bz-loclist { display: none }\n[data-bz-node^=\"lh-store-map\"] .bz-map { border-radius: var(--radius-card); overflow: hidden; min-height: 320px }\n[data-bz-node^=\"lh-phone\"] a { margin: 0 var(--space-2) var(--space-2) }\n[data-bz-node^=\"lh-copy\"] .bz-prose { margin-left: auto; margin-right: auto }",
   "props": [
     {
       "key": "locationSlug",
@@ -12,8 +13,32 @@
     {
       "key": "eyebrow",
       "type": "text",
-      "label": "Small label",
-      "default": "Visit us"
+      "label": "Breadcrumb",
+      "default": "Home / Locations"
+    },
+    {
+      "key": "titlePrefix",
+      "type": "text",
+      "label": "Heading starts with",
+      "default": "Hours & location of"
+    },
+    {
+      "key": "tagline",
+      "type": "text",
+      "label": "After the address",
+      "default": "trucks, trailers, parts and service."
+    },
+    {
+      "key": "mapLabel",
+      "type": "text",
+      "label": "Map label",
+      "default": "Store map"
+    },
+    {
+      "key": "offerLabel",
+      "type": "text",
+      "label": "Service options label",
+      "default": "Now offering"
     },
     {
       "key": "rooftop",
@@ -66,9 +91,9 @@
           "label": "Directions link"
         },
         {
-          "key": "hours",
-          "type": "textarea",
-          "label": "Opening hours"
+          "key": "perks",
+          "type": "text",
+          "label": "Service options"
         }
       ]
     }
@@ -103,52 +128,123 @@
                   "id": "lh-title",
                   "type": "heading",
                   "props": {
-                    "eyebrow": "{{eyebrow}}",
-                    "text": "{{name}}",
-                    "headingLevel": 1
-                  }
-                },
-                {
-                  "id": "lh-subtitle",
-                  "type": "text",
-                  "props": {
-                    "text": "<strong>{{subtitle}}</strong>"
+                    "eyebrow": "{{eyebrow}} / {{name}}",
+                    "text": "{{titlePrefix}} {{subtitle}} {{name}}",
+                    "headingLevel": 1,
+                    "align": "center"
                   }
                 },
                 {
                   "id": "lh-address",
                   "type": "text",
                   "props": {
-                    "text": "{{streetAddress}}, {{city}}, {{region}} {{postalCode}}"
-                  }
-                },
-                {
-                  "id": "lh-hours",
-                  "type": "text",
-                  "props": {
-                    "text": "{{hours}}"
+                    "text": "{{streetAddress}}, {{city}}, {{region}} {{postalCode}} \u2014 {{tagline}}",
+                    "align": "center"
                   }
                 },
                 {
                   "id": "lh-phone",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"{{phoneUrl}}\">Call {{phone}}</a>"
+                    "text": "<a href=\"{{phoneUrl}}\">Call {{phone}}</a> <a href=\"{{mapUrl}}\">Get directions</a>",
+                    "align": "center"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lh-store",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 8
+      },
+      "children": [
+        {
+          "id": "lh-store-row",
+          "type": "row",
+          "props": {
+            "gap": 6,
+            "stackOn": "mobile",
+            "repeat": "rooftop"
+          },
+          "children": [
+            {
+              "id": "lh-store-copy",
+              "type": "column",
+              "props": {
+                "span": 6
+              },
+              "children": [
+                {
+                  "id": "lh-store-name",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "{{mapLabel}}",
+                    "text": "{{name}}",
+                    "headingLevel": 2
                   }
                 },
                 {
-                  "id": "lh-ctas",
-                  "type": "buttons",
+                  "id": "lh-store-street",
+                  "type": "text",
                   "props": {
-                    "items": [
-                      {
-                        "ctaId": "get-directions",
-                        "url": "{{mapUrl}}"
+                    "text": "{{streetAddress}}"
+                  }
+                },
+                {
+                  "id": "lh-store-city",
+                  "type": "text",
+                  "props": {
+                    "text": "{{city}}, {{region}} {{postalCode}}"
+                  }
+                },
+                {
+                  "id": "lh-offer-row",
+                  "type": "row",
+                  "props": {},
+                  "children": [
+                    {
+                      "id": "lh-offer",
+                      "type": "column",
+                      "props": {
+                        "span": 12
                       },
-                      {
-                        "ctaId": "browse-inventory"
-                      }
-                    ]
+                      "children": [
+                        {
+                          "id": "lh-offer-h",
+                          "type": "heading",
+                          "props": {
+                            "eyebrow": "{{offerLabel}}",
+                            "text": "{{perks}}",
+                            "headingLevel": 3
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "lh-store-media",
+              "type": "column",
+              "props": {
+                "span": 6
+              },
+              "children": [
+                {
+                  "id": "lh-store-map",
+                  "type": "widget",
+                  "props": {
+                    "widget": "locations-map",
+                    "config": {
+                      "locationSlug": "{{locationSlug}}"
+                    }
                   }
                 }
               ]
@@ -157,6 +253,5 @@
         }
       ]
     }
-  ],
-  "css": "[data-bz-node^=\"lh-phone\"] a[href=\"\"], [data-bz-node^=\"lh-phone\"] a[href=\"#\"] { display: none }\n[data-bz-node^=\"lh-phone\"] a { font-weight: 700 }"
+  ]
 }

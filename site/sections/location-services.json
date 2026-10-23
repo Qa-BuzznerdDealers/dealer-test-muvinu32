@@ -1,0 +1,71 @@
+{
+  "version": 2,
+  "id": "location-services",
+  "name": "Location services & departments",
+  "css": "[data-bz-node^=\"ls-\"] h2, [data-bz-node^=\"ls-\"] h3 { text-transform: uppercase }\n[data-bz-node^=\"ls-svc-grid\"] > .bz-col, [data-bz-node^=\"ls-dept-grid\"] > .bz-col { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-card); padding: var(--space-5) }\n[data-bz-node^=\"ls-svc-grid\"] h3 { font-size: var(--text-body) }\n[data-bz-node^=\"ls-\"] .bz-col p { font-size: var(--text-small); color: var(--muted) }\n[data-bz-node^=\"ls-dept-contact\"] a[href=\"#\"], [data-bz-node^=\"ls-dept-contact\"] a[href=\"mailto:\"] { display: none }\n[data-bz-node^=\"ls-dept-contact\"] a { margin-right: var(--space-4); font-weight: 600 }",
+  "props": [
+    { "key": "locationSlug", "type": "text", "label": "Location (filled in per page)", "default": "" },
+    { "key": "eyebrow", "type": "text", "label": "Small label", "default": "What's on site in" },
+    { "key": "heading", "type": "text", "label": "Heading", "default": "One address, every department." },
+    { "key": "deptEyebrow", "type": "text", "label": "Departments label", "default": "Departments" },
+    { "key": "deptHeading", "type": "text", "label": "Departments heading", "default": "Talk to the right team." },
+    {
+      "key": "rooftop",
+      "type": "list",
+      "label": "This location",
+      "fields": [
+        { "key": "name", "type": "text", "label": "Name" },
+        { "key": "serviceRows", "type": "list", "label": "Services", "fields": [
+          { "key": "name", "type": "text", "label": "Name" },
+          { "key": "description", "type": "text", "label": "Description" }
+        ] },
+        { "key": "departmentRows", "type": "list", "label": "Departments", "fields": [
+          { "key": "name", "type": "text", "label": "Name" },
+          { "key": "hours", "type": "text", "label": "Hours" },
+          { "key": "phone", "type": "text", "label": "Phone" },
+          { "key": "phoneUrl", "type": "url", "label": "Phone link" },
+          { "key": "email", "type": "text", "label": "Email" }
+        ] }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ls-services",
+      "type": "section",
+      "props": { "width": "boxed", "background": "paper", "paddingY": 8, "repeat": "rooftop" },
+      "children": [
+        { "id": "ls-svc-head", "type": "row", "props": {}, "children": [
+          { "id": "ls-svc-head-col", "type": "column", "props": { "span": 12 }, "children": [
+            { "id": "ls-svc-h", "type": "heading", "props": { "eyebrow": "{{eyebrow}} {{name}}", "text": "{{heading}}", "headingLevel": 2 } }
+          ] }
+        ] },
+        { "id": "ls-svc-grid", "type": "row", "props": { "gap": 4 }, "children": [
+          { "id": "ls-svc", "type": "column", "props": { "span": 3, "repeat": "serviceRows" }, "children": [
+            { "id": "ls-svc-name", "type": "heading", "props": { "text": "{{name}}", "headingLevel": 3 } },
+            { "id": "ls-svc-desc", "type": "text", "props": { "text": "{{description}}" } }
+          ] }
+        ] }
+      ]
+    },
+    {
+      "id": "ls-depts",
+      "type": "section",
+      "props": { "width": "boxed", "paddingY": 8, "repeat": "rooftop" },
+      "children": [
+        { "id": "ls-dept-head", "type": "row", "props": {}, "children": [
+          { "id": "ls-dept-head-col", "type": "column", "props": { "span": 12 }, "children": [
+            { "id": "ls-dept-h", "type": "heading", "props": { "eyebrow": "{{deptEyebrow}}", "text": "{{deptHeading}}", "headingLevel": 2 } }
+          ] }
+        ] },
+        { "id": "ls-dept-grid", "type": "row", "props": { "gap": 5 }, "children": [
+          { "id": "ls-dept", "type": "column", "props": { "span": 6, "repeat": "departmentRows" }, "children": [
+            { "id": "ls-dept-name", "type": "heading", "props": { "text": "{{name}}", "headingLevel": 3 } },
+            { "id": "ls-dept-hours", "type": "text", "props": { "text": "{{hours}}" } },
+            { "id": "ls-dept-contact", "type": "text", "props": { "text": "<a href=\"{{phoneUrl}}\">{{phone}}</a> <a href=\"mailto:{{email}}\">{{email}}</a>" } }
+          ] }
+        ] }
+      ]
+    }
+  ]
+}
