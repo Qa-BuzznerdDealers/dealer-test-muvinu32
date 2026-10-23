@@ -17,6 +17,7 @@
             { "id": "about-history", "label": "History", "type": "url", "url": "/about#history" }
           ]
         },
+        { "id": "locations", "label": "Locations", "type": "page", "ref": "locations" },
         { "id": "contact", "label": "Contact", "type": "url", "url": "/contact" }
       ]
     },

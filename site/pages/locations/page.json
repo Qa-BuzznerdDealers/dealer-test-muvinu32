@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "locs",
+      "type": "section",
+      "props": { "width": "boxed", "paddingY": 8 },
+      "children": [
+        {
+          "id": "locs-row",
+          "type": "row",
+          "props": {},
+          "children": [
+            {
+              "id": "locs-col",
+              "type": "column",
+              "props": { "span": 12 },
+              "children": [
+                { "id": "locs-h", "type": "heading", "props": { "eyebrow": "Visit us", "text": "Our locations", "headingLevel": 1 } },
+                { "id": "locs-intro", "type": "text", "props": { "text": "Find the branch nearest you for sales, service and parts." } },
+                { "id": "locs-map", "type": "widget", "props": { "widget": "locations-map", "config": { "pagePathPrefix": "/locations" } } }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

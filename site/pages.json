@@ -58,5 +58,24 @@
       "footer": null,
       "utilityNav": null
     }
+  },
+  {
+    "slug": "locations",
+    "title": "Locations",
+    "description": "Find a branch near you for new and used trucks, service and parts.",
+    "path": "/locations",
+    "out": "locations/index.html",
+    "dir": "locations",
+    "group": "locations",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
   }
 ]
