@@ -1,0 +1,104 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "ld-head",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "location-header",
+        "values": {
+          "eyebrow": "Visit us",
+          "rooftop": { "source": "locations", "config": { "locationSlug": "{{locationSlug}}" } }
+        }
+      }
+    },
+    {
+      "id": "ld-visit",
+      "type": "section",
+      "props": { "width": "boxed", "paddingY": 7 },
+      "children": [
+        {
+          "id": "ld-visit-row",
+          "type": "row",
+          "props": { "gap": 6, "stackOn": "mobile" },
+          "children": [
+            {
+              "id": "ld-visit-info",
+              "type": "column",
+              "props": { "span": 6 },
+              "children": [
+                { "id": "ld-hours-h", "type": "heading", "props": { "text": "Hours", "headingLevel": 2 } },
+                { "id": "ld-hours", "type": "widget", "props": { "widget": "hours" } },
+                { "id": "ld-phones-h", "type": "heading", "props": { "text": "Call a department", "headingLevel": 3 } },
+                { "id": "ld-phones", "type": "widget", "props": { "widget": "phone-numbers" } }
+              ]
+            },
+            {
+              "id": "ld-visit-media",
+              "type": "column",
+              "props": { "span": 6 },
+              "children": [
+                { "id": "ld-photo", "type": "widget", "props": { "widget": "location-photo" } }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ld-team",
+      "type": "section",
+      "props": { "width": "boxed", "background": "paper", "paddingY": 7 },
+      "children": [
+        {
+          "id": "ld-team-row",
+          "type": "row",
+          "props": {},
+          "children": [
+            {
+              "id": "ld-team-col",
+              "type": "column",
+              "props": { "span": 12 },
+              "children": [
+                { "id": "ld-team-h", "type": "heading", "props": { "text": "Meet the team", "headingLevel": 2 } },
+                { "id": "ld-staff", "type": "widget", "props": { "widget": "staff" } }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ld-help",
+      "type": "section",
+      "props": { "width": "boxed", "paddingY": 7 },
+      "children": [
+        {
+          "id": "ld-help-row",
+          "type": "row",
+          "props": { "gap": 6, "stackOn": "mobile" },
+          "children": [
+            {
+              "id": "ld-faq-col",
+              "type": "column",
+              "props": { "span": 7 },
+              "children": [
+                { "id": "ld-faq-h", "type": "heading", "props": { "text": "Common questions", "headingLevel": 2 } },
+                { "id": "ld-faq", "type": "widget", "props": { "widget": "faq" } }
+              ]
+            },
+            {
+              "id": "ld-form-col",
+              "type": "column",
+              "props": { "span": 5 },
+              "children": [
+                { "id": "ld-form-h", "type": "heading", "props": { "text": "Get in touch", "headingLevel": 2 } },
+                { "id": "ld-form", "type": "form", "props": { "formId": "request-info" } }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

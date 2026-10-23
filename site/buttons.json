@@ -45,5 +45,23 @@
     "intent": "about",
     "newTab": false,
     "active": true
+  },
+  {
+    "id": "call-location",
+    "label": "Call this location",
+    "url": "tel:+15551234567",
+    "style": "primary",
+    "intent": "call-dealer",
+    "newTab": false,
+    "active": true
+  },
+  {
+    "id": "get-directions",
+    "label": "Get directions",
+    "url": "https://maps.google.com",
+    "style": "secondary",
+    "intent": "get-directions",
+    "newTab": true,
+    "active": true
   }
 ]
