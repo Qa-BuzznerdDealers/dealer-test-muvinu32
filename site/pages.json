@@ -27,12 +27,16 @@
     "status": "published",
     "seo": {
       "ogImage": null,
-      "noindex": false
+      "noindex": false,
+      "keywords": [
+        "Locations"
+      ]
     },
     "templates": {
       "header": null,
       "footer": null,
       "utilityNav": null
-    }
+    },
+    "description": "Location"
   }
 ]
