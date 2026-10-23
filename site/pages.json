@@ -24,7 +24,7 @@
     "title": "Create Alocation",
     "path": "/create-alocation",
     "out": "create-alocation/index.html",
-    "status": "draft",
+    "status": "published",
     "seo": {
       "ogImage": null,
       "noindex": false
