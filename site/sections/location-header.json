@@ -3,23 +3,73 @@
   "id": "location-header",
   "name": "Location header",
   "props": [
-    { "key": "locationSlug", "type": "text", "label": "Location (filled in per page)", "default": "" },
-    { "key": "eyebrow", "type": "text", "label": "Small label", "default": "Visit us" },
+    {
+      "key": "locationSlug",
+      "type": "text",
+      "label": "Location (filled in per page)",
+      "default": ""
+    },
+    {
+      "key": "eyebrow",
+      "type": "text",
+      "label": "Small label",
+      "default": "Visit us"
+    },
     {
       "key": "rooftop",
       "type": "list",
       "label": "This location",
       "fields": [
-        { "key": "name", "type": "text", "label": "Name" },
-        { "key": "subtitle", "type": "text", "label": "Business name" },
-        { "key": "streetAddress", "type": "text", "label": "Street" },
-        { "key": "city", "type": "text", "label": "City" },
-        { "key": "region", "type": "text", "label": "State" },
-        { "key": "postalCode", "type": "text", "label": "ZIP" },
-        { "key": "phone", "type": "text", "label": "Phone" },
-        { "key": "phoneUrl", "type": "url", "label": "Phone link" },
-        { "key": "mapUrl", "type": "url", "label": "Directions link" },
-        { "key": "hours", "type": "textarea", "label": "Opening hours" }
+        {
+          "key": "name",
+          "type": "text",
+          "label": "Name"
+        },
+        {
+          "key": "subtitle",
+          "type": "text",
+          "label": "Business name"
+        },
+        {
+          "key": "streetAddress",
+          "type": "text",
+          "label": "Street"
+        },
+        {
+          "key": "city",
+          "type": "text",
+          "label": "City"
+        },
+        {
+          "key": "region",
+          "type": "text",
+          "label": "State"
+        },
+        {
+          "key": "postalCode",
+          "type": "text",
+          "label": "ZIP"
+        },
+        {
+          "key": "phone",
+          "type": "text",
+          "label": "Phone"
+        },
+        {
+          "key": "phoneUrl",
+          "type": "url",
+          "label": "Phone link"
+        },
+        {
+          "key": "mapUrl",
+          "type": "url",
+          "label": "Directions link"
+        },
+        {
+          "key": "hours",
+          "type": "textarea",
+          "label": "Opening hours"
+        }
       ]
     }
   ],
@@ -27,30 +77,77 @@
     {
       "id": "lh-band",
       "type": "section",
-      "props": { "width": "boxed", "background": "ink", "paddingY": 8 },
+      "props": {
+        "width": "boxed",
+        "background": "ink",
+        "paddingY": 8
+      },
       "children": [
         {
           "id": "lh-row",
           "type": "row",
-          "props": { "gap": 6, "stackOn": "mobile", "repeat": "rooftop" },
+          "props": {
+            "gap": 6,
+            "stackOn": "mobile",
+            "repeat": "rooftop"
+          },
           "children": [
             {
               "id": "lh-copy",
               "type": "column",
-              "props": { "span": 12 },
+              "props": {
+                "span": 12
+              },
               "children": [
-                { "id": "lh-title", "type": "heading", "props": { "eyebrow": "{{eyebrow}}", "text": "{{name}}", "headingLevel": 1 } },
-                { "id": "lh-subtitle", "type": "text", "props": { "text": "<strong>{{subtitle}}</strong>" } },
-                { "id": "lh-address", "type": "text", "props": { "text": "{{streetAddress}}, {{city}}, {{region}} {{postalCode}}" } },
-                { "id": "lh-hours", "type": "text", "props": { "text": "{{hours}}" } },
+                {
+                  "id": "lh-title",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "{{eyebrow}}",
+                    "text": "{{name}}",
+                    "headingLevel": 1
+                  }
+                },
+                {
+                  "id": "lh-subtitle",
+                  "type": "text",
+                  "props": {
+                    "text": "<strong>{{subtitle}}</strong>"
+                  }
+                },
+                {
+                  "id": "lh-address",
+                  "type": "text",
+                  "props": {
+                    "text": "{{streetAddress}}, {{city}}, {{region}} {{postalCode}}"
+                  }
+                },
+                {
+                  "id": "lh-hours",
+                  "type": "text",
+                  "props": {
+                    "text": "{{hours}}"
+                  }
+                },
+                {
+                  "id": "lh-phone",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"{{phoneUrl}}\">Call {{phone}}</a>"
+                  }
+                },
                 {
                   "id": "lh-ctas",
                   "type": "buttons",
                   "props": {
                     "items": [
-                      { "ctaId": "call-location", "label": "Call {{phone}}", "url": "{{phoneUrl}}" },
-                      { "ctaId": "get-directions", "url": "{{mapUrl}}" },
-                      { "ctaId": "browse-inventory" }
+                      {
+                        "ctaId": "get-directions",
+                        "url": "{{mapUrl}}"
+                      },
+                      {
+                        "ctaId": "browse-inventory"
+                      }
                     ]
                   }
                 }
@@ -60,5 +157,6 @@
         }
       ]
     }
-  ]
+  ],
+  "css": "[data-bz-node^=\"lh-phone\"] a[href=\"\"], [data-bz-node^=\"lh-phone\"] a[href=\"#\"] { display: none }\n[data-bz-node^=\"lh-phone\"] a { font-weight: 700 }"
 }

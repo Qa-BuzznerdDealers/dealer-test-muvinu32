@@ -1,0 +1,7 @@
+/* Locations & hours — display headings in caps, as in the design. */
+[data-bz-node="locs"] h1,
+[data-bz-section] h2,
+[data-bz-node="locs-depts"] h2,
+[data-bz-node="locs-faq"] h2 { text-transform: uppercase; letter-spacing: .02em }
+[data-bz-node="locs-depts"] .bz-svc,
+[data-bz-node="locs-depts"] li { border-top: 2px solid var(--ink); padding-top: var(--space-3) }

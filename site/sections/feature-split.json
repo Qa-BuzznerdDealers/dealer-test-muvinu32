@@ -1,0 +1,112 @@
+{
+  "version": 2,
+  "id": "feature-split",
+  "name": "Split feature band",
+  "props": [
+    {
+      "key": "eyebrow",
+      "type": "text",
+      "label": "Small label",
+      "default": "When we're closed"
+    },
+    {
+      "key": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": "Coverage outside store hours."
+    },
+    {
+      "key": "body",
+      "type": "textarea",
+      "label": "Body",
+      "default": "Breakdowns don't keep business hours. Call us any time and we'll make sure your truck gets the help it needs.\n\nOur mobile service team can also come to your yard or job site for repairs, diagnostics and preventative maintenance."
+    },
+    {
+      "key": "image",
+      "type": "image",
+      "label": "Photo"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "fs-band",
+      "type": "section",
+      "props": {
+        "width": "bleed-right",
+        "background": "paper",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "fs-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "mobile"
+          },
+          "children": [
+            {
+              "id": "fs-copy",
+              "type": "column",
+              "props": {
+                "span": 6
+              },
+              "children": [
+                {
+                  "id": "fs-h",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "{{eyebrow}}",
+                    "text": "{{heading}}",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "fs-body",
+                  "type": "text",
+                  "props": {
+                    "text": "{{body}}"
+                  }
+                },
+                {
+                  "id": "fs-ctas",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "call-us",
+                        "label": "Mobile service \u2192",
+                        "style": "link"
+                      },
+                      {
+                        "ctaId": "book-service",
+                        "label": "Schedule service \u2192",
+                        "style": "link"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "fs-media",
+              "type": "column",
+              "props": {
+                "span": 6
+              },
+              "children": [
+                {
+                  "id": "fs-img",
+                  "type": "image",
+                  "props": {
+                    "image": "{{image}}"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

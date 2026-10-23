@@ -61,8 +61,8 @@
   },
   {
     "slug": "locations",
-    "title": "Locations",
-    "description": "Find a branch near you for new and used trucks, service and parts.",
+    "title": "Locations & Hours",
+    "description": "Every location, with its departments and opening hours, kept current from our records.",
     "path": "/locations",
     "out": "locations/index.html",
     "dir": "locations",
