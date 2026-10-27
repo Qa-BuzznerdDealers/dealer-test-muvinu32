@@ -1,16 +1,24 @@
 {
-  "version": 1,
-  "blocks": [
+  "version": 2,
+  "nodes": [
     {
       "id": "hero",
       "type": "hero",
       "props": {
         "headingLevel": 1,
         "eyebrow": "Trucks · Parts · Service",
-        "headline": "Your trusted partner on the road.",
+        "headline": "Your trusted partner on the road..",
         "subhead": "New and used trucks, expert service, and genuine parts — all from one dealer you can rely on.",
         "showSearch": true,
-        "ctas": [{ "ctaId": "browse-inventory" }, { "ctaId": "request-quote", "style": "secondary" }]
+        "ctas": [
+          {
+            "ctaId": "browse-inventory"
+          },
+          {
+            "ctaId": "request-quote",
+            "style": "secondary"
+          }
+        ]
       }
     },
     {
@@ -47,7 +55,113 @@
       "type": "widget",
       "props": {
         "widget": "inventory-carousel",
-        "config": { "heading": "Featured inventory", "limit": 4 }
+        "config": {
+          "heading": "Featured inventory",
+          "limit": 4
+        },
+        "snapshot": {
+          "listings": [
+            {
+              "slug": "4-2023-international-lt-2",
+              "href": "products/4-2023-international-lt-2",
+              "title": "2023 International LT",
+              "price": "$0",
+              "facts": [
+                {
+                  "label": "Make",
+                  "value": "International"
+                },
+                {
+                  "label": "Model",
+                  "value": "LT"
+                },
+                {
+                  "label": "VIN",
+                  "value": "1HSHXSJR9PH123456"
+                }
+              ],
+              "image": {
+                "src": "preview/a9/1.1__03__preview.jpg",
+                "alt": "2023 International LT",
+                "width": 600,
+                "height": 400
+              }
+            },
+            {
+              "slug": "4-test",
+              "href": "products/4-test",
+              "title": "test",
+              "price": "$0",
+              "facts": [
+                {
+                  "label": "Fuel Type",
+                  "value": "diesel"
+                },
+                {
+                  "label": "Condition",
+                  "value": "new"
+                },
+                {
+                  "label": "Make",
+                  "value": "rer"
+                }
+              ],
+              "image": null
+            },
+            {
+              "slug": "4-2024-international-emv",
+              "href": "products/4-2024-international-emv",
+              "title": "2024 INTERNATIONAL EMV",
+              "price": "$0",
+              "facts": [
+                {
+                  "label": "Condition",
+                  "value": "used"
+                },
+                {
+                  "label": "Year",
+                  "value": "2024"
+                },
+                {
+                  "label": "Model",
+                  "value": "EMV"
+                }
+              ],
+              "image": {
+                "src": "preview/a5/dms-8043066049__03__preview.jpg",
+                "alt": "2024 INTERNATIONAL EMV",
+                "width": 600,
+                "height": 400
+              }
+            },
+            {
+              "slug": "4-2025-hyundai",
+              "href": "products/4-2025-hyundai",
+              "title": "2025 HYUNDAI",
+              "price": "$0",
+              "facts": [
+                {
+                  "label": "Year",
+                  "value": "2025"
+                },
+                {
+                  "label": "Condition",
+                  "value": "New"
+                },
+                {
+                  "label": "VIN",
+                  "value": "3H3V402K8SJ403205"
+                }
+              ],
+              "image": {
+                "src": "preview/96/dms-9070598747__03__preview.jpg",
+                "alt": "2025 HYUNDAI",
+                "width": 600,
+                "height": 400
+              }
+            }
+          ]
+        }
       }
     },
     {
@@ -56,12 +170,28 @@
       "props": {
         "heading": "Keeping your fleet on the road",
         "body": "Every unit we sell is inspected in our own shop. When you buy from us you get a direct line to the people who worked on it.",
-        "ctas": [{ "ctaId": "about-us" }],
+        "ctas": [
+          {
+            "ctaId": "about-us"
+          }
+        ],
         "stats": [
-          { "value": "39", "label": "Years in business" },
-          { "value": "12k+", "label": "Units delivered" },
-          { "value": "4", "label": "Sales & service centers" },
-          { "value": "48hr", "label": "Avg. parts turnaround" }
+          {
+            "value": "39",
+            "label": "Years in business"
+          },
+          {
+            "value": "12k+",
+            "label": "Units delivered"
+          },
+          {
+            "value": "4",
+            "label": "Sales & service centers"
+          },
+          {
+            "value": "48hr",
+            "label": "Avg. parts turnaround"
+          }
         ]
       }
     },
@@ -70,20 +200,1246 @@
       "type": "widget",
       "props": {
         "widget": "locations-map",
-        "config": { "heading": "Find a location", "showMap": true }
+        "config": {
+          "heading": "Find a location",
+          "showMap": true
+        },
+        "snapshot": {
+          "locations": [
+            {
+              "id": "15",
+              "name": "Bismarck",
+              "subtitle": "",
+              "slug": "bismarck",
+              "num": "01",
+              "href": null,
+              "streetAddress": "4111 NE",
+              "city": "Bismarck",
+              "region": "",
+              "postalCode": "",
+              "country": null,
+              "latitude": null,
+              "longitude": null,
+              "phone": "11145",
+              "phoneUrl": null,
+              "mapUrl": "https://www.google.com/maps/search/?api=1&query=4111%20NE%2C%20Bismarck",
+              "email": null,
+              "brands": "",
+              "services": "",
+              "perks": "",
+              "brandKeys": "",
+              "perkKeys": "",
+              "perk1": null,
+              "perk2": null,
+              "perk3": null,
+              "departments": "Sales · Used Sales",
+              "hours": "Sales: 07:00–18:00 Mon–Fri, 08:00–14:00 Sat\n\nUsed Sales: 09:00–17:00 Mon–Fri",
+              "phone2": null,
+              "phone2Url": null,
+              "phone3": null,
+              "phone3Url": null,
+              "group": null,
+              "groupKey": null,
+              "photo": {
+                "src": "",
+                "alt": ""
+              },
+              "banner": {
+                "src": "",
+                "alt": ""
+              },
+              "brandRows": [],
+              "serviceRows": [],
+              "perkRows": [],
+              "departmentRows": [
+                {
+                  "name": "Sales",
+                  "key": "sales",
+                  "phone": null,
+                  "phoneUrl": null,
+                  "email": null,
+                  "hours": "07:00–18:00 Mon–Fri, 08:00–14:00 Sat"
+                },
+                {
+                  "name": "Used Sales",
+                  "key": "used_sales",
+                  "phone": null,
+                  "phoneUrl": null,
+                  "email": null,
+                  "hours": "09:00–17:00 Mon–Fri"
+                }
+              ],
+              "hoursRows": [
+                {
+                  "department": "Sales",
+                  "key": "sales",
+                  "summary": "07:00–18:00 Mon–Fri, 08:00–14:00 Sat",
+                  "days": [
+                    {
+                      "day": "Sunday",
+                      "hours": "Closed",
+                      "opensAt": null,
+                      "closesAt": null,
+                      "closed": true
+                    },
+                    {
+                      "day": "Monday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Tuesday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Wednesday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Thursday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Friday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Saturday",
+                      "hours": "08:00–14:00",
+                      "opensAt": "08:00",
+                      "closesAt": "14:00",
+                      "closed": false
+                    }
+                  ]
+                },
+                {
+                  "department": "Used Sales",
+                  "key": "used_sales",
+                  "summary": "09:00–17:00 Mon–Fri",
+                  "days": [
+                    {
+                      "day": "Sunday",
+                      "hours": "Closed",
+                      "opensAt": null,
+                      "closesAt": null,
+                      "closed": true
+                    },
+                    {
+                      "day": "Monday",
+                      "hours": "09:00–17:00",
+                      "opensAt": "09:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Tuesday",
+                      "hours": "09:00–17:00",
+                      "opensAt": "09:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Wednesday",
+                      "hours": "09:00–17:00",
+                      "opensAt": "09:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Thursday",
+                      "hours": "09:00–17:00",
+                      "opensAt": "09:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Friday",
+                      "hours": "09:00–17:00",
+                      "opensAt": "09:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Saturday",
+                      "hours": "Closed",
+                      "opensAt": null,
+                      "closesAt": null,
+                      "closed": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "11",
+              "name": "Davenport",
+              "subtitle": "",
+              "slug": "davenport",
+              "num": "02",
+              "href": null,
+              "streetAddress": null,
+              "city": null,
+              "region": null,
+              "postalCode": null,
+              "country": null,
+              "latitude": null,
+              "longitude": null,
+              "phone": null,
+              "phoneUrl": null,
+              "mapUrl": null,
+              "email": null,
+              "brands": "",
+              "services": "",
+              "perks": "",
+              "brandKeys": "",
+              "perkKeys": "",
+              "perk1": null,
+              "perk2": null,
+              "perk3": null,
+              "departments": "",
+              "hours": "",
+              "phone2": null,
+              "phone2Url": null,
+              "phone3": null,
+              "phone3Url": null,
+              "group": null,
+              "groupKey": null,
+              "photo": {
+                "src": "",
+                "alt": ""
+              },
+              "banner": {
+                "src": "",
+                "alt": ""
+              },
+              "brandRows": [],
+              "serviceRows": [],
+              "perkRows": [],
+              "departmentRows": [],
+              "hoursRows": []
+            },
+            {
+              "id": "7",
+              "name": "Dc",
+              "subtitle": "Time Square",
+              "slug": "dc",
+              "num": "03",
+              "href": null,
+              "streetAddress": null,
+              "city": "",
+              "region": "",
+              "postalCode": "",
+              "country": null,
+              "latitude": null,
+              "longitude": null,
+              "phone": "",
+              "phoneUrl": null,
+              "mapUrl": null,
+              "email": null,
+              "brands": "",
+              "services": "",
+              "perks": "",
+              "brandKeys": "",
+              "perkKeys": "",
+              "perk1": null,
+              "perk2": null,
+              "perk3": null,
+              "departments": "",
+              "hours": "",
+              "phone2": null,
+              "phone2Url": null,
+              "phone3": null,
+              "phone3Url": null,
+              "group": null,
+              "groupKey": null,
+              "photo": {
+                "src": "",
+                "alt": ""
+              },
+              "banner": {
+                "src": "",
+                "alt": ""
+              },
+              "brandRows": [],
+              "serviceRows": [],
+              "perkRows": [],
+              "departmentRows": [],
+              "hoursRows": []
+            },
+            {
+              "id": "14",
+              "name": "Dickinson",
+              "subtitle": "",
+              "slug": "dickinson",
+              "num": "04",
+              "href": null,
+              "streetAddress": null,
+              "city": null,
+              "region": null,
+              "postalCode": null,
+              "country": null,
+              "latitude": null,
+              "longitude": null,
+              "phone": null,
+              "phoneUrl": null,
+              "mapUrl": null,
+              "email": null,
+              "brands": "",
+              "services": "",
+              "perks": "",
+              "brandKeys": "",
+              "perkKeys": "",
+              "perk1": null,
+              "perk2": null,
+              "perk3": null,
+              "departments": "",
+              "hours": "",
+              "phone2": null,
+              "phone2Url": null,
+              "phone3": null,
+              "phone3Url": null,
+              "group": null,
+              "groupKey": null,
+              "photo": {
+                "src": "",
+                "alt": ""
+              },
+              "banner": {
+                "src": "",
+                "alt": ""
+              },
+              "brandRows": [],
+              "serviceRows": [],
+              "perkRows": [],
+              "departmentRows": [],
+              "hoursRows": []
+            },
+            {
+              "id": "10",
+              "name": "Fargo",
+              "subtitle": "",
+              "slug": "fargo",
+              "num": "05",
+              "href": null,
+              "streetAddress": null,
+              "city": null,
+              "region": null,
+              "postalCode": null,
+              "country": null,
+              "latitude": null,
+              "longitude": null,
+              "phone": null,
+              "phoneUrl": null,
+              "mapUrl": null,
+              "email": null,
+              "brands": "",
+              "services": "",
+              "perks": "",
+              "brandKeys": "",
+              "perkKeys": "",
+              "perk1": null,
+              "perk2": null,
+              "perk3": null,
+              "departments": "",
+              "hours": "",
+              "phone2": null,
+              "phone2Url": null,
+              "phone3": null,
+              "phone3Url": null,
+              "group": null,
+              "groupKey": null,
+              "photo": {
+                "src": "",
+                "alt": ""
+              },
+              "banner": {
+                "src": "",
+                "alt": ""
+              },
+              "brandRows": [],
+              "serviceRows": [],
+              "perkRows": [],
+              "departmentRows": [],
+              "hoursRows": []
+            },
+            {
+              "id": "16",
+              "name": "Grand Forks",
+              "subtitle": "",
+              "slug": "grand-forks",
+              "num": "06",
+              "href": null,
+              "streetAddress": null,
+              "city": null,
+              "region": null,
+              "postalCode": null,
+              "country": null,
+              "latitude": null,
+              "longitude": null,
+              "phone": null,
+              "phoneUrl": null,
+              "mapUrl": null,
+              "email": null,
+              "brands": "",
+              "services": "",
+              "perks": "",
+              "brandKeys": "",
+              "perkKeys": "",
+              "perk1": null,
+              "perk2": null,
+              "perk3": null,
+              "departments": "",
+              "hours": "",
+              "phone2": null,
+              "phone2Url": null,
+              "phone3": null,
+              "phone3Url": null,
+              "group": null,
+              "groupKey": null,
+              "photo": {
+                "src": "",
+                "alt": ""
+              },
+              "banner": {
+                "src": "",
+                "alt": ""
+              },
+              "brandRows": [],
+              "serviceRows": [],
+              "perkRows": [],
+              "departmentRows": [],
+              "hoursRows": []
+            },
+            {
+              "id": "18",
+              "name": "Lexington",
+              "subtitle": "",
+              "slug": "lexington",
+              "num": "07",
+              "href": null,
+              "streetAddress": null,
+              "city": null,
+              "region": null,
+              "postalCode": null,
+              "country": null,
+              "latitude": null,
+              "longitude": null,
+              "phone": null,
+              "phoneUrl": null,
+              "mapUrl": null,
+              "email": null,
+              "brands": "",
+              "services": "",
+              "perks": "",
+              "brandKeys": "",
+              "perkKeys": "",
+              "perk1": null,
+              "perk2": null,
+              "perk3": null,
+              "departments": "",
+              "hours": "",
+              "phone2": null,
+              "phone2Url": null,
+              "phone3": null,
+              "phone3Url": null,
+              "group": null,
+              "groupKey": null,
+              "photo": {
+                "src": "",
+                "alt": ""
+              },
+              "banner": {
+                "src": "",
+                "alt": ""
+              },
+              "brandRows": [],
+              "serviceRows": [],
+              "perkRows": [],
+              "departmentRows": [],
+              "hoursRows": []
+            },
+            {
+              "id": "13",
+              "name": "Lincoln",
+              "subtitle": "",
+              "slug": "lincoln",
+              "num": "08",
+              "href": null,
+              "streetAddress": null,
+              "city": null,
+              "region": null,
+              "postalCode": null,
+              "country": null,
+              "latitude": null,
+              "longitude": null,
+              "phone": null,
+              "phoneUrl": null,
+              "mapUrl": null,
+              "email": null,
+              "brands": "",
+              "services": "",
+              "perks": "",
+              "brandKeys": "",
+              "perkKeys": "",
+              "perk1": null,
+              "perk2": null,
+              "perk3": null,
+              "departments": "",
+              "hours": "",
+              "phone2": null,
+              "phone2Url": null,
+              "phone3": null,
+              "phone3Url": null,
+              "group": null,
+              "groupKey": null,
+              "photo": {
+                "src": "",
+                "alt": ""
+              },
+              "banner": {
+                "src": "",
+                "alt": ""
+              },
+              "brandRows": [],
+              "serviceRows": [],
+              "perkRows": [],
+              "departmentRows": [],
+              "hoursRows": []
+            },
+            {
+              "id": "17",
+              "name": "Norfolk",
+              "subtitle": "",
+              "slug": "norfolk",
+              "num": "09",
+              "href": null,
+              "streetAddress": null,
+              "city": null,
+              "region": null,
+              "postalCode": null,
+              "country": null,
+              "latitude": null,
+              "longitude": null,
+              "phone": null,
+              "phoneUrl": null,
+              "mapUrl": null,
+              "email": null,
+              "brands": "",
+              "services": "",
+              "perks": "",
+              "brandKeys": "",
+              "perkKeys": "",
+              "perk1": null,
+              "perk2": null,
+              "perk3": null,
+              "departments": "",
+              "hours": "",
+              "phone2": null,
+              "phone2Url": null,
+              "phone3": null,
+              "phone3Url": null,
+              "group": null,
+              "groupKey": null,
+              "photo": {
+                "src": "",
+                "alt": ""
+              },
+              "banner": {
+                "src": "",
+                "alt": ""
+              },
+              "brandRows": [],
+              "serviceRows": [],
+              "perkRows": [],
+              "departmentRows": [],
+              "hoursRows": []
+            },
+            {
+              "id": "12",
+              "name": "Omaha",
+              "subtitle": "",
+              "slug": "omaha",
+              "num": "10",
+              "href": null,
+              "streetAddress": null,
+              "city": null,
+              "region": null,
+              "postalCode": null,
+              "country": null,
+              "latitude": null,
+              "longitude": null,
+              "phone": null,
+              "phoneUrl": null,
+              "mapUrl": null,
+              "email": null,
+              "brands": "",
+              "services": "",
+              "perks": "",
+              "brandKeys": "",
+              "perkKeys": "",
+              "perk1": null,
+              "perk2": null,
+              "perk3": null,
+              "departments": "",
+              "hours": "",
+              "phone2": null,
+              "phone2Url": null,
+              "phone3": null,
+              "phone3Url": null,
+              "group": null,
+              "groupKey": null,
+              "photo": {
+                "src": "",
+                "alt": ""
+              },
+              "banner": {
+                "src": "",
+                "alt": ""
+              },
+              "brandRows": [],
+              "serviceRows": [],
+              "perkRows": [],
+              "departmentRows": [],
+              "hoursRows": []
+            },
+            {
+              "id": "25",
+              "name": "tampa",
+              "subtitle": "",
+              "slug": "tampa-2",
+              "num": "11",
+              "href": null,
+              "streetAddress": null,
+              "city": "",
+              "region": "",
+              "postalCode": "",
+              "country": null,
+              "latitude": null,
+              "longitude": null,
+              "phone": "",
+              "phoneUrl": null,
+              "mapUrl": null,
+              "email": null,
+              "brands": "",
+              "services": "",
+              "perks": "",
+              "brandKeys": "",
+              "perkKeys": "",
+              "perk1": null,
+              "perk2": null,
+              "perk3": null,
+              "departments": "Sales · Used Sales · Service",
+              "hours": "Sales: 07:00–18:00 Mon–Fri, 08:00–14:00 Sat\n\nUsed Sales: 09:00–17:00 Mon–Fri\n\nService: 07:00–18:00 Mon–Fri, 08:00–14:00 Sat",
+              "phone2": null,
+              "phone2Url": null,
+              "phone3": null,
+              "phone3Url": null,
+              "group": null,
+              "groupKey": null,
+              "photo": {
+                "src": "",
+                "alt": ""
+              },
+              "banner": {
+                "src": "",
+                "alt": ""
+              },
+              "brandRows": [],
+              "serviceRows": [],
+              "perkRows": [],
+              "departmentRows": [
+                {
+                  "name": "Sales",
+                  "key": "sales",
+                  "phone": null,
+                  "phoneUrl": null,
+                  "email": null,
+                  "hours": "07:00–18:00 Mon–Fri, 08:00–14:00 Sat"
+                },
+                {
+                  "name": "Used Sales",
+                  "key": "used_sales",
+                  "phone": null,
+                  "phoneUrl": null,
+                  "email": null,
+                  "hours": "09:00–17:00 Mon–Fri"
+                },
+                {
+                  "name": "Service",
+                  "key": "service",
+                  "phone": null,
+                  "phoneUrl": null,
+                  "email": null,
+                  "hours": "07:00–18:00 Mon–Fri, 08:00–14:00 Sat"
+                }
+              ],
+              "hoursRows": [
+                {
+                  "department": "Sales",
+                  "key": "sales",
+                  "summary": "07:00–18:00 Mon–Fri, 08:00–14:00 Sat",
+                  "days": [
+                    {
+                      "day": "Sunday",
+                      "hours": "Closed",
+                      "opensAt": null,
+                      "closesAt": null,
+                      "closed": true
+                    },
+                    {
+                      "day": "Monday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Tuesday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Wednesday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Thursday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Friday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Saturday",
+                      "hours": "08:00–14:00",
+                      "opensAt": "08:00",
+                      "closesAt": "14:00",
+                      "closed": false
+                    }
+                  ]
+                },
+                {
+                  "department": "Used Sales",
+                  "key": "used_sales",
+                  "summary": "09:00–17:00 Mon–Fri",
+                  "days": [
+                    {
+                      "day": "Sunday",
+                      "hours": "Closed",
+                      "opensAt": null,
+                      "closesAt": null,
+                      "closed": true
+                    },
+                    {
+                      "day": "Monday",
+                      "hours": "09:00–17:00",
+                      "opensAt": "09:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Tuesday",
+                      "hours": "09:00–17:00",
+                      "opensAt": "09:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Wednesday",
+                      "hours": "09:00–17:00",
+                      "opensAt": "09:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Thursday",
+                      "hours": "09:00–17:00",
+                      "opensAt": "09:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Friday",
+                      "hours": "09:00–17:00",
+                      "opensAt": "09:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Saturday",
+                      "hours": "Closed",
+                      "opensAt": null,
+                      "closesAt": null,
+                      "closed": true
+                    }
+                  ]
+                },
+                {
+                  "department": "Service",
+                  "key": "service",
+                  "summary": "07:00–18:00 Mon–Fri, 08:00–14:00 Sat",
+                  "days": [
+                    {
+                      "day": "Sunday",
+                      "hours": "Closed",
+                      "opensAt": null,
+                      "closesAt": null,
+                      "closed": true
+                    },
+                    {
+                      "day": "Monday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Tuesday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Wednesday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Thursday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Friday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Saturday",
+                      "hours": "08:00–14:00",
+                      "opensAt": "08:00",
+                      "closesAt": "14:00",
+                      "closed": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "9",
+              "name": "Tampa",
+              "subtitle": "",
+              "slug": "tampa",
+              "num": "12",
+              "href": null,
+              "streetAddress": null,
+              "city": null,
+              "region": null,
+              "postalCode": null,
+              "country": null,
+              "latitude": null,
+              "longitude": null,
+              "phone": null,
+              "phoneUrl": null,
+              "mapUrl": null,
+              "email": null,
+              "brands": "",
+              "services": "",
+              "perks": "",
+              "brandKeys": "",
+              "perkKeys": "",
+              "perk1": null,
+              "perk2": null,
+              "perk3": null,
+              "departments": "",
+              "hours": "",
+              "phone2": null,
+              "phone2Url": null,
+              "phone3": null,
+              "phone3Url": null,
+              "group": null,
+              "groupKey": null,
+              "photo": {
+                "src": "",
+                "alt": ""
+              },
+              "banner": {
+                "src": "",
+                "alt": ""
+              },
+              "brandRows": [],
+              "serviceRows": [],
+              "perkRows": [],
+              "departmentRows": [],
+              "hoursRows": []
+            },
+            {
+              "id": "5",
+              "name": "Texas",
+              "subtitle": "",
+              "slug": "main",
+              "num": "13",
+              "href": null,
+              "streetAddress": "4000, st texas",
+              "city": "st texas",
+              "region": "",
+              "postalCode": "",
+              "country": null,
+              "latitude": null,
+              "longitude": null,
+              "phone": "",
+              "phoneUrl": null,
+              "mapUrl": "https://www.google.com/maps/search/?api=1&query=4000%2C%20st%20texas%2C%20st%20texas",
+              "email": null,
+              "brands": "",
+              "services": "",
+              "perks": "",
+              "brandKeys": "",
+              "perkKeys": "",
+              "perk1": null,
+              "perk2": null,
+              "perk3": null,
+              "departments": "Sales · Used Sales · Service · Parts",
+              "hours": "Sales: 10:00–16:00 Sun, 07:00–18:00 Mon–Fri, 08:00–14:00 Sat\n\nUsed Sales: 08:00–17:00 Mon–Fri, 09:00–13:00 Sat\n\nService: 10:00–16:00 Sun, 07:00–18:00 Mon–Fri, 08:00–14:00 Sat\n\nParts: 07:00–18:00 Mon–Fri, 08:00–14:00 Sat",
+              "phone2": null,
+              "phone2Url": null,
+              "phone3": null,
+              "phone3Url": null,
+              "group": null,
+              "groupKey": null,
+              "photo": {
+                "src": "",
+                "alt": ""
+              },
+              "banner": {
+                "src": "",
+                "alt": ""
+              },
+              "brandRows": [],
+              "serviceRows": [],
+              "perkRows": [],
+              "departmentRows": [
+                {
+                  "name": "Sales",
+                  "key": "sales",
+                  "phone": null,
+                  "phoneUrl": null,
+                  "email": null,
+                  "hours": "10:00–16:00 Sun, 07:00–18:00 Mon–Fri, 08:00–14:00 Sat"
+                },
+                {
+                  "name": "Used Sales",
+                  "key": "used_sales",
+                  "phone": null,
+                  "phoneUrl": null,
+                  "email": null,
+                  "hours": "08:00–17:00 Mon–Fri, 09:00–13:00 Sat"
+                },
+                {
+                  "name": "Service",
+                  "key": "service",
+                  "phone": null,
+                  "phoneUrl": null,
+                  "email": null,
+                  "hours": "10:00–16:00 Sun, 07:00–18:00 Mon–Fri, 08:00–14:00 Sat"
+                },
+                {
+                  "name": "Parts",
+                  "key": "parts",
+                  "phone": null,
+                  "phoneUrl": null,
+                  "email": null,
+                  "hours": "07:00–18:00 Mon–Fri, 08:00–14:00 Sat"
+                }
+              ],
+              "hoursRows": [
+                {
+                  "department": "Sales",
+                  "key": "sales",
+                  "summary": "10:00–16:00 Sun, 07:00–18:00 Mon–Fri, 08:00–14:00 Sat",
+                  "days": [
+                    {
+                      "day": "Sunday",
+                      "hours": "10:00–16:00",
+                      "opensAt": "10:00",
+                      "closesAt": "16:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Monday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Tuesday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Wednesday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Thursday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Friday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Saturday",
+                      "hours": "08:00–14:00",
+                      "opensAt": "08:00",
+                      "closesAt": "14:00",
+                      "closed": false
+                    }
+                  ]
+                },
+                {
+                  "department": "Used Sales",
+                  "key": "used_sales",
+                  "summary": "08:00–17:00 Mon–Fri, 09:00–13:00 Sat",
+                  "days": [
+                    {
+                      "day": "Sunday",
+                      "hours": "Closed",
+                      "opensAt": null,
+                      "closesAt": null,
+                      "closed": true
+                    },
+                    {
+                      "day": "Monday",
+                      "hours": "08:00–17:00",
+                      "opensAt": "08:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Tuesday",
+                      "hours": "08:00–17:00",
+                      "opensAt": "08:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Wednesday",
+                      "hours": "08:00–17:00",
+                      "opensAt": "08:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Thursday",
+                      "hours": "08:00–17:00",
+                      "opensAt": "08:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Friday",
+                      "hours": "08:00–17:00",
+                      "opensAt": "08:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Saturday",
+                      "hours": "09:00–13:00",
+                      "opensAt": "09:00",
+                      "closesAt": "13:00",
+                      "closed": false
+                    }
+                  ]
+                },
+                {
+                  "department": "Service",
+                  "key": "service",
+                  "summary": "10:00–16:00 Sun, 07:00–18:00 Mon–Fri, 08:00–14:00 Sat",
+                  "days": [
+                    {
+                      "day": "Sunday",
+                      "hours": "10:00–16:00",
+                      "opensAt": "10:00",
+                      "closesAt": "16:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Monday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Tuesday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Wednesday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Thursday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Friday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Saturday",
+                      "hours": "08:00–14:00",
+                      "opensAt": "08:00",
+                      "closesAt": "14:00",
+                      "closed": false
+                    }
+                  ]
+                },
+                {
+                  "department": "Parts",
+                  "key": "parts",
+                  "summary": "07:00–18:00 Mon–Fri, 08:00–14:00 Sat",
+                  "days": [
+                    {
+                      "day": "Sunday",
+                      "hours": "Closed",
+                      "opensAt": null,
+                      "closesAt": null,
+                      "closed": true
+                    },
+                    {
+                      "day": "Monday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Tuesday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Wednesday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Thursday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Friday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Saturday",
+                      "hours": "08:00–14:00",
+                      "opensAt": "08:00",
+                      "closesAt": "14:00",
+                      "closed": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "brandFacets": [],
+          "perkFacets": []
+        }
       }
     },
     {
       "id": "contact-row",
       "type": "row",
       "props": {
-        "align": "start",
-        "columns": [
-          [
+        "gap": 6,
+        "align": "stretch"
+      },
+      "children": [
+        {
+          "id": "contact-row-c1",
+          "type": "column",
+          "props": {
+            "span": 6
+          },
+          "children": [
             {
               "id": "contact-copy",
               "type": "heading",
-              "props": { "text": "Talk to someone who knows the equipment", "headingLevel": 2 }
+              "props": {
+                "text": "Talk to someone who knows the equipment",
+                "headingLevel": 2
+              }
             },
             {
               "id": "contact-text",
@@ -92,16 +1448,25 @@
                 "text": "Tell us what the job needs and we will spec it, price it and tell you honestly what is in stock.\n\nPrefer the phone? <a href=\"tel:+15551234567\">Call us</a> during business hours."
               }
             }
-          ],
-          [
+          ]
+        },
+        {
+          "id": "contact-row-c2",
+          "type": "column",
+          "props": {
+            "span": 6
+          },
+          "children": [
             {
               "id": "contact-form",
               "type": "form",
-              "props": { "formId": "request-info" }
+              "props": {
+                "formId": "request-info"
+              }
             }
           ]
-        ]
-      }
+        }
+      ]
     }
   ]
 }
