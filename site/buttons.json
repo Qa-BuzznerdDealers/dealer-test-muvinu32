@@ -85,7 +85,7 @@
   {
     "id": "transect",
     "label": "Transect",
-    "url": "https://app.trnsact.com/oca/?vendorGUID=c71dd600-0a5d-f111-8173-066ef92796c9&description={description}&price={price}&pictureUrl={pictureUrl}&condition={condition}&make={make|manufacturer}&manufacturer={manufacturer}&VIN={vin}&year={bznrd-year}&model={model}&postalCode={postalCode}&state={state}&SN={SKU}",
+    "url": "https://app.trnsact.com/oca/?vendorGUID=c71dd600-0a5d-f111-8173-066ef92796c9&description={description}&price={price}&pictureUrl={pictureUrl}&condition={condition}&make={make|manufacturer}&manufacturer={manufacturer}&VIN={vin}&year={bznrd-year}&model={model}&postalCode={postalCode}&state={state}&SN={sku}",
     "style": "primary",
     "intent": "transect",
     "active": true,
