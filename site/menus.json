@@ -5,16 +5,68 @@
       "id": "main",
       "name": "Main menu",
       "items": [
-        { "id": "home", "label": "Home", "type": "page", "ref": "home" },
-        { "id": "inventory", "label": "Inventory", "type": "inventory", "ref": "inventory" },
+        {
+          "id": "home",
+          "label": "Home",
+          "type": "page",
+          "ref": "home",
+          "url": null,
+          "newTab": false,
+          "icon": null,
+          "children": []
+        },
+        {
+          "id": "inventory",
+          "label": "Inventory",
+          "type": "inventory",
+          "ref": "inventory",
+          "url": null,
+          "newTab": false,
+          "icon": null,
+          "children": []
+        },
         {
           "id": "about",
           "label": "About",
           "type": "url",
+          "ref": null,
           "url": "/about",
+          "newTab": false,
+          "icon": null,
           "children": [
-            { "id": "about-team", "label": "Our team", "type": "url", "url": "/about#team" },
-            { "id": "about-history", "label": "History", "type": "url", "url": "/about#history" }
+            {
+              "id": "about-team",
+              "label": "Our team",
+              "type": "url",
+              "ref": null,
+              "url": "/store/inventory/truck/p/4-2026-international-mv-3",
+              "newTab": true,
+              "icon": {
+                "src": "https://vendure.aionerds.com/assets/source/4d/tick-square-svgrepo-com.svg",
+                "tint": true
+              },
+              "children": [
+                {
+                  "id": "item-12",
+                  "label": "New item",
+                  "type": "url",
+                  "url": "https://store/inventory/truck/p/4-2026-international-mv-2",
+                  "ref": null,
+                  "children": [],
+                  "newTab": true
+                }
+              ]
+            },
+            {
+              "id": "about-history",
+              "label": "History",
+              "type": "url",
+              "ref": null,
+              "url": "/about#history",
+              "newTab": false,
+              "icon": null,
+              "children": []
+            }
           ]
         },
         {
@@ -22,31 +74,124 @@
           "label": "Locations",
           "type": "page",
           "ref": "locations",
+          "url": null,
+          "newTab": false,
+          "icon": null,
           "children": [
-            { "id": "loc-bismarck", "label": "Bismarck", "type": "location", "ref": "bismarck" },
-            { "id": "loc-texas", "label": "Texas", "type": "location", "ref": "main" },
-            { "id": "loc-tampa", "label": "Tampa", "type": "location", "ref": "tampa" },
-            { "id": "loc-all", "label": "All locations", "type": "page", "ref": "locations" }
+            {
+              "id": "loc-bismarck",
+              "label": "Bismarck",
+              "type": "location",
+              "ref": "bismarck",
+              "url": null,
+              "newTab": false,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": "loc-texas",
+              "label": "Texas",
+              "type": "location",
+              "ref": "main",
+              "url": null,
+              "newTab": false,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": "loc-tampa",
+              "label": "Tampa",
+              "type": "location",
+              "ref": "tampa",
+              "url": null,
+              "newTab": false,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": "loc-all",
+              "label": "All locations",
+              "type": "page",
+              "ref": "locations",
+              "url": null,
+              "newTab": false,
+              "icon": null,
+              "children": []
+            }
           ]
         },
-        { "id": "contact", "label": "Contact", "type": "url", "url": "/contact" }
+        {
+          "id": "contact",
+          "label": "Contact",
+          "type": "url",
+          "ref": null,
+          "url": "/contact",
+          "newTab": false,
+          "icon": null,
+          "children": []
+        }
       ]
     },
     {
       "id": "footer",
       "name": "Footer menu",
       "items": [
-        { "id": "f-inventory", "label": "Inventory", "type": "inventory", "ref": "inventory" },
-        { "id": "f-about", "label": "About", "type": "url", "url": "/about" },
-        { "id": "f-contact", "label": "Contact", "type": "url", "url": "/contact" }
+        {
+          "id": "f-inventory",
+          "label": "Inventory",
+          "type": "inventory",
+          "ref": "inventory",
+          "url": null,
+          "newTab": false,
+          "icon": null,
+          "children": []
+        },
+        {
+          "id": "f-about",
+          "label": "About",
+          "type": "url",
+          "ref": null,
+          "url": "/about",
+          "newTab": false,
+          "icon": null,
+          "children": []
+        },
+        {
+          "id": "f-contact",
+          "label": "Contact",
+          "type": "url",
+          "ref": null,
+          "url": "/contact",
+          "newTab": false,
+          "icon": null,
+          "children": []
+        }
       ]
     },
     {
       "id": "legal",
       "name": "Legal",
       "items": [
-        { "id": "privacy", "label": "Privacy", "type": "url", "url": "/privacy" },
-        { "id": "terms", "label": "Terms", "type": "url", "url": "/terms" }
+        {
+          "id": "privacy",
+          "label": "Privacy",
+          "type": "url",
+          "ref": null,
+          "url": "/privacy",
+          "newTab": false,
+          "icon": null,
+          "children": []
+        },
+        {
+          "id": "terms",
+          "label": "Terms",
+          "type": "url",
+          "ref": null,
+          "url": "/terms",
+          "newTab": false,
+          "icon": null,
+          "children": []
+        }
       ]
     }
   ]
