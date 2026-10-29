@@ -53,7 +53,7 @@
               "type": "url",
               "ref": null,
               "url": "/store/inventory/truck/p/4-2026-international-mv-3",
-              "newTab": false,
+              "newTab": true,
               "icon": null,
               "children": []
             },
@@ -63,7 +63,12 @@
               "type": "url",
               "url": "/store/inventory/truck/p/4-2026-international-mv-3",
               "ref": null,
-              "children": []
+              "children": [],
+              "newTab": true,
+              "icon": {
+                "src": "https://vendure.aionerds.com/assets/source/c9/search.png",
+                "tint": true
+              }
             }
           ]
         },
