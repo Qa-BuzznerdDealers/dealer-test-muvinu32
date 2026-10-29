@@ -45,26 +45,24 @@
                 "src": "https://vendure.aionerds.com/assets/source/4d/tick-square-svgrepo-com.svg",
                 "tint": true
               },
-              "children": [
-                {
-                  "id": "item-12",
-                  "label": "Buzz",
-                  "type": "url",
-                  "url": "https://store/inventory/truck/p/4-2026-international-mv-2",
-                  "ref": null,
-                  "children": [],
-                  "newTab": true
-                }
-              ]
+              "children": []
             },
             {
               "id": "about-history",
               "label": "History",
               "type": "url",
               "ref": null,
-              "url": "/about#history",
+              "url": "/store/inventory/truck/p/4-2026-international-mv-3",
               "newTab": false,
               "icon": null,
+              "children": []
+            },
+            {
+              "id": "item-12",
+              "label": "Buzz",
+              "type": "url",
+              "url": "/store/inventory/truck/p/4-2026-international-mv-3",
+              "ref": null,
               "children": []
             }
           ]
