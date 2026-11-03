@@ -67,10 +67,11 @@
                   "id": "item-14",
                   "label": "CC",
                   "type": "url",
-                  "url": "https://dealer-buzznerd-mv6er825.vercel.app/store/inventory/truck?condition=used",
                   "ref": null,
-                  "children": [],
-                  "newTab": true
+                  "url": "https://dealer-buzznerd-mv6er825.vercel.app/store/inventory/truck?condition=used",
+                  "newTab": true,
+                  "icon": null,
+                  "children": []
                 }
               ]
             },
@@ -80,7 +81,7 @@
               "type": "url",
               "ref": null,
               "url": "/store/inventory/truck/heavy-duty-trucks",
-              "newTab": false,
+              "newTab": true,
               "icon": null,
               "children": []
             }
