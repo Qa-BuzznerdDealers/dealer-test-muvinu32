@@ -5,7 +5,7 @@
     "url": "/store",
     "style": "primary",
     "intent": "browse-inventory",
-    "newTab": false,
+    "newTab": true,
     "active": true
   },
   {
