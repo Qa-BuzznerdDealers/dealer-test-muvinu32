@@ -99,5 +99,14 @@
     "intent": "trac",
     "active": true,
     "newTab": true
+  },
+  {
+    "id": "invento",
+    "label": "Invento",
+    "url": "https://dealer-test-muvinu32.vercel.app/store/inventory/truck/heavy-duty-trucks",
+    "style": "primary",
+    "intent": "invento",
+    "active": true,
+    "newTab": true
   }
 ]
