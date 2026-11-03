@@ -43,7 +43,7 @@
     "url": "/about",
     "style": "link",
     "intent": "about",
-    "newTab": false,
+    "newTab": true,
     "active": true
   },
   {
