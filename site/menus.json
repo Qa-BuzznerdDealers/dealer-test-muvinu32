@@ -12,6 +12,7 @@
           "ref": "home",
           "url": null,
           "newTab": false,
+          "icon": null,
           "children": []
         },
         {
@@ -21,6 +22,7 @@
           "ref": "inventory",
           "url": null,
           "newTab": false,
+          "icon": null,
           "children": []
         },
         {
@@ -30,6 +32,7 @@
           "ref": null,
           "url": "/about",
           "newTab": false,
+          "icon": null,
           "children": [
             {
               "id": "about-team",
@@ -38,6 +41,7 @@
               "ref": null,
               "url": "/store/inventory/truck/p/4-2026-international-mv-3",
               "newTab": true,
+              "icon": null,
               "children": []
             },
             {
@@ -47,6 +51,7 @@
               "ref": null,
               "url": "/store/inventory/truck/p/4-2026-international-mv-3",
               "newTab": true,
+              "icon": null,
               "children": []
             },
             {
@@ -56,14 +61,17 @@
               "ref": null,
               "url": "/store/inventory/truck/p/4-2026-international-mv-3",
               "newTab": true,
+              "icon": null,
               "children": []
             },
             {
               "id": "item-13",
               "label": "Invento",
               "type": "url",
-              "url": "/store/inventory/truck/heavy-duty-trucks",
               "ref": null,
+              "url": "/store/inventory/truck/heavy-duty-trucks",
+              "newTab": false,
+              "icon": null,
               "children": []
             }
           ]
@@ -75,6 +83,7 @@
           "ref": "locations",
           "url": null,
           "newTab": false,
+          "icon": null,
           "children": [
             {
               "id": "loc-bismarck",
@@ -83,6 +92,7 @@
               "ref": "bismarck",
               "url": null,
               "newTab": false,
+              "icon": null,
               "children": []
             },
             {
@@ -92,6 +102,7 @@
               "ref": "main",
               "url": null,
               "newTab": false,
+              "icon": null,
               "children": []
             },
             {
@@ -101,6 +112,7 @@
               "ref": "tampa",
               "url": null,
               "newTab": false,
+              "icon": null,
               "children": []
             },
             {
@@ -110,6 +122,7 @@
               "ref": "locations",
               "url": null,
               "newTab": false,
+              "icon": null,
               "children": []
             }
           ]
@@ -121,6 +134,7 @@
           "ref": null,
           "url": "/contact",
           "newTab": false,
+          "icon": null,
           "children": []
         }
       ]
@@ -136,6 +150,7 @@
           "ref": "inventory",
           "url": null,
           "newTab": false,
+          "icon": null,
           "children": []
         },
         {
@@ -145,6 +160,7 @@
           "ref": null,
           "url": "/about",
           "newTab": false,
+          "icon": null,
           "children": []
         },
         {
@@ -154,6 +170,7 @@
           "ref": null,
           "url": "/contact",
           "newTab": false,
+          "icon": null,
           "children": []
         }
       ]
@@ -169,6 +186,7 @@
           "ref": null,
           "url": "/privacy",
           "newTab": false,
+          "icon": null,
           "children": []
         },
         {
@@ -178,6 +196,7 @@
           "ref": null,
           "url": "/terms",
           "newTab": false,
+          "icon": null,
           "children": []
         }
       ]
