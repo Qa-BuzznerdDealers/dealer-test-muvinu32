@@ -62,7 +62,17 @@
               "url": "/store/inventory/truck/p/4-2026-international-mv-3",
               "newTab": true,
               "icon": null,
-              "children": []
+              "children": [
+                {
+                  "id": "item-14",
+                  "label": "CC",
+                  "type": "url",
+                  "url": "https://dealer-buzznerd-mv6er825.vercel.app/store/inventory/truck?condition=used",
+                  "ref": null,
+                  "children": [],
+                  "newTab": true
+                }
+              ]
             },
             {
               "id": "item-13",
