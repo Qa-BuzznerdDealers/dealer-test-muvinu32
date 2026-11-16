@@ -151,5 +151,25 @@
       "footer": null,
       "utilityNav": null
     }
+  },
+  {
+    "slug": "locations-copy-copy-2",
+    "title": "Locations & Hours (Copy) (Copy)",
+    "description": "Every location, with its departments and opening hours, kept current from our records.",
+    "path": "/locations-copy-copy-2",
+    "out": "locations-copy-copy-2/index.html",
+    "dir": "locations-copy-copy-2",
+    "group": "locations",
+    "status": "draft",
+    "seo": {
+      "ogImage": null,
+      "noindex": true,
+      "keywords": []
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
   }
 ]
