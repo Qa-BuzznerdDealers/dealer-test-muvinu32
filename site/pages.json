@@ -224,5 +224,22 @@
       "footer": null,
       "utilityNav": null
     }
+  },
+  {
+    "slug": "sleeper-trucks-copy",
+    "dir": "sleeper-trucks-copy",
+    "title": "Sleeper Trucks (Copy)",
+    "path": "/sleeper-trucks-copy",
+    "out": "sleeper-trucks-copy/index.html",
+    "status": "draft",
+    "seo": {
+      "ogImage": null,
+      "noindex": true
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
   }
 ]
