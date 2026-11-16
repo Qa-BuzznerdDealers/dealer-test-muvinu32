@@ -195,7 +195,110 @@
                   "type": "widget",
                   "props": {
                     "widget": "inventory-carousel",
-                    "config": {}
+                    "config": {},
+                    "snapshot": {
+                      "listings": [
+                        {
+                          "slug": "4-2023-international-lt-2",
+                          "href": "products/4-2023-international-lt-2",
+                          "title": "2023 International LT",
+                          "price": "$0",
+                          "facts": [
+                            {
+                              "label": "Make",
+                              "value": "International"
+                            },
+                            {
+                              "label": "Model",
+                              "value": "LT"
+                            },
+                            {
+                              "label": "VIN",
+                              "value": "1HSHXSJR9PH123456"
+                            }
+                          ],
+                          "image": {
+                            "src": "preview/a9/1.1__03__preview.jpg",
+                            "alt": "2023 International LT",
+                            "width": 600,
+                            "height": 400
+                          }
+                        },
+                        {
+                          "slug": "4-test",
+                          "href": "products/4-test",
+                          "title": "test",
+                          "price": "$0",
+                          "facts": [
+                            {
+                              "label": "Fuel Type",
+                              "value": "diesel"
+                            },
+                            {
+                              "label": "Condition",
+                              "value": "new"
+                            },
+                            {
+                              "label": "Make",
+                              "value": "rer"
+                            }
+                          ],
+                          "image": null
+                        },
+                        {
+                          "slug": "4-2024-international-emv",
+                          "href": "products/4-2024-international-emv",
+                          "title": "2024 INTERNATIONAL EMV",
+                          "price": "$0",
+                          "facts": [
+                            {
+                              "label": "Condition",
+                              "value": "used"
+                            },
+                            {
+                              "label": "Year",
+                              "value": "2024"
+                            },
+                            {
+                              "label": "Model",
+                              "value": "EMV"
+                            }
+                          ],
+                          "image": {
+                            "src": "preview/a5/dms-8043066049__03__preview.jpg",
+                            "alt": "2024 INTERNATIONAL EMV",
+                            "width": 600,
+                            "height": 400
+                          }
+                        },
+                        {
+                          "slug": "4-2025-hyundai",
+                          "href": "products/4-2025-hyundai",
+                          "title": "2025 HYUNDAI",
+                          "price": "$0",
+                          "facts": [
+                            {
+                              "label": "Year",
+                              "value": "2025"
+                            },
+                            {
+                              "label": "Condition",
+                              "value": "New"
+                            },
+                            {
+                              "label": "VIN",
+                              "value": "3H3V402K8SJ403205"
+                            }
+                          ],
+                          "image": {
+                            "src": "preview/96/dms-9070598747__03__preview.jpg",
+                            "alt": "2025 HYUNDAI",
+                            "width": 600,
+                            "height": 400
+                          }
+                        }
+                      ]
+                    }
                   }
                 }
               ]
