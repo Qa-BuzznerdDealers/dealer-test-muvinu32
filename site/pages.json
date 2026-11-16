@@ -103,7 +103,7 @@
     "title": "test",
     "path": "/test",
     "out": "test/index.html",
-    "status": "draft",
+    "status": "published",
     "seo": {
       "ogImage": null,
       "noindex": false
