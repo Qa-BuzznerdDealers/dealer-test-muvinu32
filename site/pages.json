@@ -89,7 +89,7 @@
     "status": "published",
     "seo": {
       "ogImage": null,
-      "noindex": false,
+      "noindex": true,
       "keywords": []
     },
     "templates": {
