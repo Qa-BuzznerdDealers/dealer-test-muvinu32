@@ -1,4 +1,18 @@
 {
   "version": 2,
-  "nodes": []
+  "nodes": [
+    {
+      "id": "image",
+      "type": "image",
+      "props": {
+        "width": "full",
+        "image": {
+          "src": "https://vendure.aionerds.com/assets/source/a5/dms-11046934992__03.jpg",
+          "alt": "dms-11046934992__03.jpg",
+          "width": 640,
+          "height": 480
+        }
+      }
+    }
+  ]
 }
