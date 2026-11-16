@@ -171,5 +171,22 @@
       "footer": null,
       "utilityNav": null
     }
+  },
+  {
+    "slug": "test-copy-copy",
+    "dir": "test-copy-copy",
+    "title": "test (Copy) (Copy)",
+    "path": "/test-copy-copy",
+    "out": "test-copy-copy/index.html",
+    "status": "draft",
+    "seo": {
+      "ogImage": null,
+      "noindex": true
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
   }
 ]
