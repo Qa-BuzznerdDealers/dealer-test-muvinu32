@@ -196,7 +196,7 @@
     "path": "/home-copy",
     "out": "home-copy/index.html",
     "dir": "home-copy",
-    "status": "draft",
+    "status": "published",
     "seo": {
       "ogImage": null,
       "noindex": true
