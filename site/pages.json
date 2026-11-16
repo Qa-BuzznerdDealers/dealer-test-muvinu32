@@ -214,7 +214,7 @@
     "title": "Sleeper Trucks",
     "path": "/sleeper-trucks",
     "out": "sleeper-trucks/index.html",
-    "status": "draft",
+    "status": "published",
     "seo": {
       "ogImage": null,
       "noindex": false
