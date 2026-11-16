@@ -86,7 +86,7 @@
     "out": "locations-copy/index.html",
     "dir": "locations-copy",
     "group": "locations",
-    "status": "draft",
+    "status": "published",
     "seo": {
       "ogImage": null,
       "noindex": true
