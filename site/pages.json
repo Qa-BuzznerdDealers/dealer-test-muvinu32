@@ -207,5 +207,22 @@
       "utilityNav": null
     },
     "pageType": "Home"
+  },
+  {
+    "slug": "sleeper-trucks",
+    "dir": "sleeper-trucks",
+    "title": "Sleeper Trucks",
+    "path": "/sleeper-trucks",
+    "out": "sleeper-trucks/index.html",
+    "status": "draft",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
   }
 ]
