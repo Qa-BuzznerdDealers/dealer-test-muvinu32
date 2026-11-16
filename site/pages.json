@@ -89,7 +89,8 @@
     "status": "published",
     "seo": {
       "ogImage": null,
-      "noindex": true
+      "noindex": false,
+      "keywords": []
     },
     "templates": {
       "header": null,
