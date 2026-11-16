@@ -1,0 +1,233 @@
+{
+  "slug": "heavy-duty-trucks",
+  "title": "Heavy Duty Trucks",
+  "description": "",
+  "status": "draft",
+  "date": "2026-11-16",
+  "coverImage": null,
+  "nodes": [
+    {
+      "id": "heavy-duty-hero",
+      "type": "hero",
+      "props": {
+        "headline": "Heavy Duty Trucks",
+        "subhead": "Discover our range of heavy duty trucks designed for reliability and performance.",
+        "ctas": [
+          {
+            "ctaId": "browse-inventory",
+            "style": "primary"
+          }
+        ],
+        "image": {
+          "src": "/media/heavy-duty-truck.jpg",
+          "alt": "Heavy duty truck lineup"
+        },
+        "showSearch": true,
+        "headingLevel": 1
+      }
+    },
+    {
+      "id": "heavy-duty-intro-section",
+      "type": "section",
+      "props": {
+        "background": "paper",
+        "paddingY": 6
+      },
+      "children": [
+        {
+          "id": "heavy-duty-intro-row",
+          "type": "row",
+          "props": {
+            "gap": 6
+          },
+          "children": [
+            {
+              "id": "heavy-duty-intro-column",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "heavy-duty-intro-heading",
+                  "type": "heading",
+                  "props": {
+                    "text": "Why Choose Our Heavy Duty Trucks?",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "heavy-duty-intro-text",
+                  "type": "text",
+                  "props": {
+                    "text": "Our trucks offer unmatched power, durability, and efficiency to meet all your business needs. Whether you're hauling freight or working on construction sites, our selection of trucks stands up to the most demanding tasks."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heavy-duty-features-section",
+      "type": "section",
+      "props": {
+        "background": "none",
+        "paddingY": 6
+      },
+      "children": [
+        {
+          "id": "heavy-duty-features-row",
+          "type": "row",
+          "props": {
+            "gap": 6
+          },
+          "children": [
+            {
+              "id": "feature-column-1",
+              "type": "column",
+              "props": {
+                "span": 4
+              },
+              "children": [
+                {
+                  "id": "feature-heading-1",
+                  "type": "heading",
+                  "props": {
+                    "text": "Powerful Engines",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "feature-text-1",
+                  "type": "text",
+                  "props": {
+                    "text": "Our trucks are equipped with industry-leading engines that deliver exceptional horsepower and torque."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "feature-column-2",
+              "type": "column",
+              "props": {
+                "span": 4
+              },
+              "children": [
+                {
+                  "id": "feature-heading-2",
+                  "type": "heading",
+                  "props": {
+                    "text": "Advanced Technology",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "feature-text-2",
+                  "type": "text",
+                  "props": {
+                    "text": "Stay connected and safe with our trucks' cutting-edge technology and safety features."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "feature-column-3",
+              "type": "column",
+              "props": {
+                "span": 4
+              },
+              "children": [
+                {
+                  "id": "feature-heading-3",
+                  "type": "heading",
+                  "props": {
+                    "text": "Durability & Reliability",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "feature-text-3",
+                  "type": "text",
+                  "props": {
+                    "text": "Built to last with robust materials and construction, our trucks won't let you down."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heavy-duty-inventory-section",
+      "type": "section",
+      "props": {
+        "background": "card",
+        "paddingY": 6
+      },
+      "children": [
+        {
+          "id": "heavy-duty-inventory-row",
+          "type": "row",
+          "props": {
+            "gap": 6
+          },
+          "children": [
+            {
+              "id": "heavy-duty-inventory-column",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "heavy-duty-inventory-heading",
+                  "type": "heading",
+                  "props": {
+                    "text": "Browse Our Inventory",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "heavy-duty-inventory-widget",
+                  "type": "widget",
+                  "props": {
+                    "widget": "inventory-carousel",
+                    "config": {}
+                  }
+                }
+              ]
+            },
+            {
+              "id": "heavy-duty-cta-column",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "heavy-duty-cta-buttons",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "request-quote",
+                        "style": "primary"
+                      },
+                      {
+                        "ctaId": "call-us",
+                        "style": "secondary"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
