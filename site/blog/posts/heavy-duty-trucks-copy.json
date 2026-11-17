@@ -238,32 +238,6 @@
                           }
                         },
                         {
-                          "slug": "4-2026-hyundai-vr2530152-as-4",
-                          "href": "products/4-2026-hyundai-vr2530152-as-4",
-                          "title": "2026 HYUNDAI VR2530152-AS",
-                          "price": "$87,500",
-                          "facts": [
-                            {
-                              "label": "Year",
-                              "value": "2026"
-                            },
-                            {
-                              "label": "Condition",
-                              "value": "Used"
-                            },
-                            {
-                              "label": "Model",
-                              "value": "VR2530152-AS"
-                            }
-                          ],
-                          "image": {
-                            "src": "https://vendure.aionerds.com/assets/preview/75/dms-11041622495__03__preview.jpg",
-                            "alt": "2026 HYUNDAI VR2530152-AS",
-                            "width": 600,
-                            "height": 400
-                          }
-                        },
-                        {
                           "slug": "4-2027-international-mv-4",
                           "href": "products/4-2027-international-mv-4",
                           "title": "2027 INTERNATIONAL MV",
@@ -296,99 +270,21 @@
                           "price": "$33,000",
                           "facts": [
                             {
-                              "label": "Availability",
-                              "value": "For sale"
-                            },
-                            {
                               "label": "Condition",
                               "value": "Used"
                             },
                             {
                               "label": "Model",
                               "value": "COMPOSITE"
+                            },
+                            {
+                              "label": "Year",
+                              "value": "2024"
                             }
                           ],
                           "image": {
                             "src": "https://vendure.aionerds.com/assets/preview/cc/dms-11045395577__03__preview.jpg",
                             "alt": "2024 HYUNDAI COMPOSITE",
-                            "width": 600,
-                            "height": 400
-                          }
-                        },
-                        {
-                          "slug": "4-2026-hyundai-vr2530152-as-7",
-                          "href": "products/4-2026-hyundai-vr2530152-as-7",
-                          "title": "2026 HYUNDAI VR2530152-AS",
-                          "price": "$87,500",
-                          "facts": [
-                            {
-                              "label": "Year",
-                              "value": "2026"
-                            },
-                            {
-                              "label": "Condition",
-                              "value": "Used"
-                            },
-                            {
-                              "label": "Model",
-                              "value": "VR2530152-AS"
-                            }
-                          ],
-                          "image": {
-                            "src": "https://vendure.aionerds.com/assets/preview/a8/dms-11041497731__03__preview.jpg",
-                            "alt": "2026 HYUNDAI VR2530152-AS",
-                            "width": 600,
-                            "height": 400
-                          }
-                        },
-                        {
-                          "slug": "4-2026-hyundai-vr2530152-as-5",
-                          "href": "products/4-2026-hyundai-vr2530152-as-5",
-                          "title": "2026 HYUNDAI VR2530152-AS",
-                          "price": "$87,500",
-                          "facts": [
-                            {
-                              "label": "Year",
-                              "value": "2026"
-                            },
-                            {
-                              "label": "Condition",
-                              "value": "Used"
-                            },
-                            {
-                              "label": "Model",
-                              "value": "VR2530152-AS"
-                            }
-                          ],
-                          "image": {
-                            "src": "https://vendure.aionerds.com/assets/preview/2e/dms-11041624412__03__preview.jpg",
-                            "alt": "2026 HYUNDAI VR2530152-AS",
-                            "width": 600,
-                            "height": 400
-                          }
-                        },
-                        {
-                          "slug": "4-2026-hyundai-vr2530152-as-6",
-                          "href": "products/4-2026-hyundai-vr2530152-as-6",
-                          "title": "2026 HYUNDAI VR2530152-AS",
-                          "price": "$87,500",
-                          "facts": [
-                            {
-                              "label": "Year",
-                              "value": "2026"
-                            },
-                            {
-                              "label": "Condition",
-                              "value": "Used"
-                            },
-                            {
-                              "label": "Model",
-                              "value": "VR2530152-AS"
-                            }
-                          ],
-                          "image": {
-                            "src": "https://vendure.aionerds.com/assets/preview/11/dms-11044382741__03__preview.jpg",
-                            "alt": "2026 HYUNDAI VR2530152-AS",
                             "width": 600,
                             "height": 400
                           }
