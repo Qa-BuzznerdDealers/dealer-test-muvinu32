@@ -57,11 +57,62 @@
         "widget": "inventory-carousel",
         "config": {
           "heading": "Featured inventory",
-          "limit": 8,
-          "categorySlug": "semi"
+          "limit": 8
         },
         "snapshot": {
           "listings": [
+            {
+              "slug": "4-2027-international-mv-5",
+              "href": "products/4-2027-international-mv-5",
+              "title": "2027 INTERNATIONAL MV",
+              "price": "$116,900",
+              "facts": [
+                {
+                  "label": "Condition",
+                  "value": "new"
+                },
+                {
+                  "label": "Year",
+                  "value": "2027"
+                },
+                {
+                  "label": "Model",
+                  "value": "MV"
+                }
+              ],
+              "image": {
+                "src": "https://vendure.aionerds.com/assets/preview/13/dms-11046608063__03__preview.webp",
+                "alt": "2027 INTERNATIONAL MV",
+                "width": 600,
+                "height": 400
+              }
+            },
+            {
+              "slug": "4-2027-international-mv-4",
+              "href": "products/4-2027-international-mv-4",
+              "title": "2027 INTERNATIONAL MV",
+              "price": "$125,900",
+              "facts": [
+                {
+                  "label": "Condition",
+                  "value": "used"
+                },
+                {
+                  "label": "Availability",
+                  "value": "For sale"
+                },
+                {
+                  "label": "Year",
+                  "value": "2027"
+                }
+              ],
+              "image": {
+                "src": "https://vendure.aionerds.com/assets/preview/07/dms-11046608063__03__preview.jpg",
+                "alt": "2027 INTERNATIONAL MV",
+                "width": 600,
+                "height": 400
+              }
+            },
             {
               "slug": "4-2024-hyundai-composite-8",
               "href": "products/4-2024-hyundai-composite-8",
