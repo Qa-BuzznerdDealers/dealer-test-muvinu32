@@ -51,7 +51,150 @@
                   "type": "widget",
                   "props": {
                     "widget": "hours",
-                    "snapshot": null
+                    "snapshot": {
+                      "location": "Bismarck",
+                      "department": "Sales",
+                      "hours": [
+                        {
+                          "day": "Sunday",
+                          "hours": "Closed",
+                          "opensAt": null,
+                          "closesAt": null
+                        },
+                        {
+                          "day": "Monday",
+                          "hours": "07:00–18:00",
+                          "opensAt": "07:00",
+                          "closesAt": "18:00"
+                        },
+                        {
+                          "day": "Tuesday",
+                          "hours": "07:00–18:00",
+                          "opensAt": "07:00",
+                          "closesAt": "18:00"
+                        },
+                        {
+                          "day": "Wednesday",
+                          "hours": "07:00–18:00",
+                          "opensAt": "07:00",
+                          "closesAt": "18:00"
+                        },
+                        {
+                          "day": "Thursday",
+                          "hours": "07:00–18:00",
+                          "opensAt": "07:00",
+                          "closesAt": "18:00"
+                        },
+                        {
+                          "day": "Friday",
+                          "hours": "07:00–18:00",
+                          "opensAt": "07:00",
+                          "closesAt": "18:00"
+                        },
+                        {
+                          "day": "Saturday",
+                          "hours": "08:00–14:00",
+                          "opensAt": "08:00",
+                          "closesAt": "14:00"
+                        }
+                      ],
+                      "schedules": [
+                        {
+                          "heading": "Sales",
+                          "hours": [
+                            {
+                              "day": "Sunday",
+                              "hours": "Closed",
+                              "opensAt": null,
+                              "closesAt": null
+                            },
+                            {
+                              "day": "Monday",
+                              "hours": "07:00–18:00",
+                              "opensAt": "07:00",
+                              "closesAt": "18:00"
+                            },
+                            {
+                              "day": "Tuesday",
+                              "hours": "07:00–18:00",
+                              "opensAt": "07:00",
+                              "closesAt": "18:00"
+                            },
+                            {
+                              "day": "Wednesday",
+                              "hours": "07:00–18:00",
+                              "opensAt": "07:00",
+                              "closesAt": "18:00"
+                            },
+                            {
+                              "day": "Thursday",
+                              "hours": "07:00–18:00",
+                              "opensAt": "07:00",
+                              "closesAt": "18:00"
+                            },
+                            {
+                              "day": "Friday",
+                              "hours": "07:00–18:00",
+                              "opensAt": "07:00",
+                              "closesAt": "18:00"
+                            },
+                            {
+                              "day": "Saturday",
+                              "hours": "08:00–14:00",
+                              "opensAt": "08:00",
+                              "closesAt": "14:00"
+                            }
+                          ]
+                        },
+                        {
+                          "heading": "Used Sales",
+                          "hours": [
+                            {
+                              "day": "Sunday",
+                              "hours": "Closed",
+                              "opensAt": null,
+                              "closesAt": null
+                            },
+                            {
+                              "day": "Monday",
+                              "hours": "09:00–17:00",
+                              "opensAt": "09:00",
+                              "closesAt": "17:00"
+                            },
+                            {
+                              "day": "Tuesday",
+                              "hours": "09:00–17:00",
+                              "opensAt": "09:00",
+                              "closesAt": "17:00"
+                            },
+                            {
+                              "day": "Wednesday",
+                              "hours": "09:00–17:00",
+                              "opensAt": "09:00",
+                              "closesAt": "17:00"
+                            },
+                            {
+                              "day": "Thursday",
+                              "hours": "09:00–17:00",
+                              "opensAt": "09:00",
+                              "closesAt": "17:00"
+                            },
+                            {
+                              "day": "Friday",
+                              "hours": "09:00–17:00",
+                              "opensAt": "09:00",
+                              "closesAt": "17:00"
+                            },
+                            {
+                              "day": "Saturday",
+                              "hours": "Closed",
+                              "opensAt": null,
+                              "closesAt": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
                   }
                 },
                 {

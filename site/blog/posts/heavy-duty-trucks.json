@@ -199,100 +199,209 @@
                     "snapshot": {
                       "listings": [
                         {
-                          "slug": "4-2023-international-lt-2",
-                          "href": "products/4-2023-international-lt-2",
-                          "title": "2023 International LT",
-                          "price": "$0",
+                          "slug": "4-2027-international-mv-5",
+                          "href": "products/4-2027-international-mv-5",
+                          "title": "2027 INTERNATIONAL MV",
+                          "price": "$116,900",
                           "facts": [
-                            {
-                              "label": "Make",
-                              "value": "International"
-                            },
-                            {
-                              "label": "Model",
-                              "value": "LT"
-                            },
-                            {
-                              "label": "VIN",
-                              "value": "1HSHXSJR9PH123456"
-                            }
-                          ],
-                          "image": {
-                            "src": "preview/a9/1.1__03__preview.jpg",
-                            "alt": "2023 International LT",
-                            "width": 600,
-                            "height": 400
-                          }
-                        },
-                        {
-                          "slug": "4-test",
-                          "href": "products/4-test",
-                          "title": "test",
-                          "price": "$0",
-                          "facts": [
-                            {
-                              "label": "Fuel Type",
-                              "value": "diesel"
-                            },
                             {
                               "label": "Condition",
                               "value": "new"
                             },
                             {
-                              "label": "Make",
-                              "value": "rer"
+                              "label": "Year",
+                              "value": "2027"
+                            },
+                            {
+                              "label": "Model",
+                              "value": "MV"
                             }
                           ],
-                          "image": null
+                          "image": {
+                            "src": "https://vendure.aionerds.com/assets/preview/13/dms-11046608063__03__preview.webp",
+                            "alt": "2027 INTERNATIONAL MV",
+                            "width": 600,
+                            "height": 400
+                          }
                         },
                         {
-                          "slug": "4-2024-international-emv",
-                          "href": "products/4-2024-international-emv",
-                          "title": "2024 INTERNATIONAL EMV",
-                          "price": "$0",
+                          "slug": "4-2027-international-mv-4",
+                          "href": "products/4-2027-international-mv-4",
+                          "title": "2027 INTERNATIONAL MV",
+                          "price": "$125,900",
                           "facts": [
                             {
                               "label": "Condition",
                               "value": "used"
                             },
                             {
-                              "label": "Year",
-                              "value": "2024"
+                              "label": "Availability",
+                              "value": "For sale"
                             },
                             {
-                              "label": "Model",
-                              "value": "EMV"
+                              "label": "Year",
+                              "value": "2027"
                             }
                           ],
                           "image": {
-                            "src": "preview/a5/dms-8043066049__03__preview.jpg",
-                            "alt": "2024 INTERNATIONAL EMV",
+                            "src": "https://vendure.aionerds.com/assets/preview/07/dms-11046608063__03__preview.jpg",
+                            "alt": "2027 INTERNATIONAL MV",
                             "width": 600,
                             "height": 400
                           }
                         },
                         {
-                          "slug": "4-2025-hyundai",
-                          "href": "products/4-2025-hyundai",
-                          "title": "2025 HYUNDAI",
-                          "price": "$0",
+                          "slug": "4-2024-hyundai-composite-8",
+                          "href": "products/4-2024-hyundai-composite-8",
+                          "title": "2024 HYUNDAI COMPOSITE",
+                          "price": "$33,000",
                           "facts": [
                             {
-                              "label": "Year",
-                              "value": "2025"
+                              "label": "Availability",
+                              "value": "For sale"
                             },
                             {
                               "label": "Condition",
-                              "value": "New"
+                              "value": "Used"
                             },
                             {
-                              "label": "VIN",
-                              "value": "3H3V402K8SJ403205"
+                              "label": "Model",
+                              "value": "COMPOSITE"
                             }
                           ],
                           "image": {
-                            "src": "preview/96/dms-9070598747__03__preview.jpg",
-                            "alt": "2025 HYUNDAI",
+                            "src": "https://vendure.aionerds.com/assets/preview/cc/dms-11045395577__03__preview.jpg",
+                            "alt": "2024 HYUNDAI COMPOSITE",
+                            "width": 600,
+                            "height": 400
+                          }
+                        },
+                        {
+                          "slug": "4-2025-capacity-tj5000-dot-2",
+                          "href": "products/4-2025-capacity-tj5000-dot-2",
+                          "title": "2025 CAPACITY TJ5000 DOT",
+                          "price": "$132,500",
+                          "facts": [
+                            {
+                              "label": "Condition",
+                              "value": "new"
+                            },
+                            {
+                              "label": "Availability",
+                              "value": "For sale"
+                            },
+                            {
+                              "label": "Year",
+                              "value": "2025"
+                            }
+                          ],
+                          "image": {
+                            "src": "https://vendure.aionerds.com/assets/preview/2c/dms-11044973867__03__preview.jpg",
+                            "alt": "2025 CAPACITY TJ5000 DOT",
+                            "width": 600,
+                            "height": 400
+                          }
+                        },
+                        {
+                          "slug": "4-2025-capacity-tj5000-dot",
+                          "href": "products/4-2025-capacity-tj5000-dot",
+                          "title": "2025 CAPACITY TJ5000 DOT",
+                          "price": "$132,500",
+                          "facts": [
+                            {
+                              "label": "Condition",
+                              "value": "new"
+                            },
+                            {
+                              "label": "Availability",
+                              "value": "For sale"
+                            },
+                            {
+                              "label": "Year",
+                              "value": "2025"
+                            }
+                          ],
+                          "image": {
+                            "src": "https://vendure.aionerds.com/assets/preview/ad/dms-11044832091__03__preview.jpg",
+                            "alt": "2025 CAPACITY TJ5000 DOT",
+                            "width": 600,
+                            "height": 400
+                          }
+                        },
+                        {
+                          "slug": "4-2026-hyundai-vr2530152-as-7",
+                          "href": "products/4-2026-hyundai-vr2530152-as-7",
+                          "title": "2026 HYUNDAI VR2530152-AS",
+                          "price": "$87,500",
+                          "facts": [
+                            {
+                              "label": "Year",
+                              "value": "2026"
+                            },
+                            {
+                              "label": "Condition",
+                              "value": "Used"
+                            },
+                            {
+                              "label": "Model",
+                              "value": "VR2530152-AS"
+                            }
+                          ],
+                          "image": {
+                            "src": "https://vendure.aionerds.com/assets/preview/a8/dms-11041497731__03__preview.jpg",
+                            "alt": "2026 HYUNDAI VR2530152-AS",
+                            "width": 600,
+                            "height": 400
+                          }
+                        },
+                        {
+                          "slug": "4-2026-hyundai-vr2530152-as-6",
+                          "href": "products/4-2026-hyundai-vr2530152-as-6",
+                          "title": "2026 HYUNDAI VR2530152-AS",
+                          "price": "$87,500",
+                          "facts": [
+                            {
+                              "label": "Year",
+                              "value": "2026"
+                            },
+                            {
+                              "label": "Condition",
+                              "value": "Used"
+                            },
+                            {
+                              "label": "Model",
+                              "value": "VR2530152-AS"
+                            }
+                          ],
+                          "image": {
+                            "src": "https://vendure.aionerds.com/assets/preview/11/dms-11044382741__03__preview.jpg",
+                            "alt": "2026 HYUNDAI VR2530152-AS",
+                            "width": 600,
+                            "height": 400
+                          }
+                        },
+                        {
+                          "slug": "4-2026-hyundai-vr2530152-as-5",
+                          "href": "products/4-2026-hyundai-vr2530152-as-5",
+                          "title": "2026 HYUNDAI VR2530152-AS",
+                          "price": "$87,500",
+                          "facts": [
+                            {
+                              "label": "Year",
+                              "value": "2026"
+                            },
+                            {
+                              "label": "Condition",
+                              "value": "Used"
+                            },
+                            {
+                              "label": "Model",
+                              "value": "VR2530152-AS"
+                            }
+                          ],
+                          "image": {
+                            "src": "https://vendure.aionerds.com/assets/preview/2e/dms-11041624412__03__preview.jpg",
+                            "alt": "2026 HYUNDAI VR2530152-AS",
                             "width": 600,
                             "height": 400
                           }
