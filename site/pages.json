@@ -241,5 +241,24 @@
       "footer": null,
       "utilityNav": null
     }
+  },
+  {
+    "slug": "home-copy-2",
+    "title": "Home (copy)",
+    "description": "New and used trucks, service and parts from a dealer you can trust.",
+    "path": "/home-copy-2",
+    "out": "home-copy-2/index.html",
+    "dir": "home-copy-2",
+    "status": "draft",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Home"
   }
 ]
