@@ -57,7 +57,7 @@
         "widget": "inventory-carousel",
         "config": {
           "heading": "Featured inventory",
-          "limit": 4
+          "limit": 8
         },
         "snapshot": {
           "listings": [
@@ -109,32 +109,6 @@
               "image": {
                 "src": "https://vendure.aionerds.com/assets/preview/07/dms-11046608063__03__preview.jpg",
                 "alt": "2027 INTERNATIONAL MV",
-                "width": 600,
-                "height": 400
-              }
-            },
-            {
-              "slug": "4-2024-hyundai-composite-8",
-              "href": "products/4-2024-hyundai-composite-8",
-              "title": "2024 HYUNDAI COMPOSITE",
-              "price": "$33,000",
-              "facts": [
-                {
-                  "label": "Condition",
-                  "value": "Used"
-                },
-                {
-                  "label": "Model",
-                  "value": "COMPOSITE"
-                },
-                {
-                  "label": "Year",
-                  "value": "2024"
-                }
-              ],
-              "image": {
-                "src": "https://vendure.aionerds.com/assets/preview/cc/dms-11045395577__03__preview.jpg",
-                "alt": "2024 HYUNDAI COMPOSITE",
                 "width": 600,
                 "height": 400
               }
