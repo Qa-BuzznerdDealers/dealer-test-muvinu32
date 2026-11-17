@@ -10,6 +10,9 @@
     },
     "user": {
       "src": "https://vendure.aionerds.com/assets/source/b4/save-svgrepo-com.svg"
+    },
+    "print": {
+      "src": "https://vendure.aionerds.com/assets/source/c9/search.png"
     }
   }
 }
