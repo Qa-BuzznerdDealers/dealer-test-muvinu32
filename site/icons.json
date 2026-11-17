@@ -5,6 +5,9 @@
     "search": {
       "src": "https://vendure.aionerds.com/assets/source/14/search.svg"
     },
+    "save": {
+      "src": "https://vendure.aionerds.com/assets/source/4d/tick-square-svgrepo-com.svg"
+    },
     "user": {
       "src": "https://vendure.aionerds.com/assets/source/b4/save-svgrepo-com.svg"
     }
