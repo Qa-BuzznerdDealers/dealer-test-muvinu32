@@ -202,7 +202,7 @@
                           "slug": "4-truck-101",
                           "href": "products/4-truck-101",
                           "title": "Truck 101",
-                          "price": "$100,000",
+                          "price": null,
                           "facts": [
                             {
                               "label": "Availability",
