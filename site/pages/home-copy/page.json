@@ -138,6 +138,32 @@
                 "width": 600,
                 "height": 400
               }
+            },
+            {
+              "slug": "4-2025-capacity-tj5000-dot-2",
+              "href": "products/4-2025-capacity-tj5000-dot-2",
+              "title": "2025 CAPACITY TJ5000 DOT",
+              "price": "$132,500",
+              "facts": [
+                {
+                  "label": "Condition",
+                  "value": "new"
+                },
+                {
+                  "label": "Availability",
+                  "value": "For sale"
+                },
+                {
+                  "label": "Year",
+                  "value": "2025"
+                }
+              ],
+              "image": {
+                "src": "https://vendure.aionerds.com/assets/preview/2c/dms-11044973867__03__preview.jpg",
+                "alt": "2025 CAPACITY TJ5000 DOT",
+                "width": 600,
+                "height": 400
+              }
             }
           ]
         }
