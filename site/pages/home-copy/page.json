@@ -62,6 +62,32 @@
         "snapshot": {
           "listings": [
             {
+              "slug": "4-2026-hyundai-vr2530152-as-7",
+              "href": "products/4-2026-hyundai-vr2530152-as-7",
+              "title": "2026 HYUNDAI VR2530152-AS",
+              "price": "$87,500",
+              "facts": [
+                {
+                  "label": "Year",
+                  "value": "2026"
+                },
+                {
+                  "label": "Condition",
+                  "value": "Used"
+                },
+                {
+                  "label": "Model",
+                  "value": "VR2530152-AS"
+                }
+              ],
+              "image": {
+                "src": "https://vendure.aionerds.com/assets/preview/a8/dms-11041497731__03__preview.jpg",
+                "alt": "2026 HYUNDAI VR2530152-AS",
+                "width": 600,
+                "height": 400
+              }
+            },
+            {
               "slug": "4-2027-international-mv-5",
               "href": "products/4-2027-international-mv-5",
               "title": "2027 INTERNATIONAL MV",
@@ -69,7 +95,7 @@
               "facts": [
                 {
                   "label": "Condition",
-                  "value": "new"
+                  "value": "New"
                 },
                 {
                   "label": "Year",
@@ -95,7 +121,7 @@
               "facts": [
                 {
                   "label": "Condition",
-                  "value": "used"
+                  "value": "Used"
                 },
                 {
                   "label": "Availability",
