@@ -51,6 +51,16 @@
       }
     },
     {
+      "id": "video",
+      "type": "video",
+      "props": {
+        "width": "full",
+        "video": {
+          "src": "https://www.youtube.com/watch?v=XUHtHhH4q0A"
+        }
+      }
+    },
+    {
       "id": "featured",
       "type": "widget",
       "props": {
