@@ -387,8 +387,8 @@
                           "price": null,
                           "facts": [
                             {
-                              "label": "Availability",
-                              "value": "For sale"
+                              "label": "Condition",
+                              "value": "New"
                             }
                           ],
                           "image": null
