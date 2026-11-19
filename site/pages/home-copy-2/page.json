@@ -62,91 +62,73 @@
         "snapshot": {
           "listings": [
             {
-              "slug": "4-truck-101",
-              "href": "products/4-truck-101",
-              "title": "Truck 101",
-              "price": null,
+              "slug": "4-2023-international-lt-2",
+              "href": "products/4-2023-international-lt-2",
+              "title": "2023 International LT",
+              "price": "$0",
               "facts": [
                 {
+                  "label": "Make",
+                  "value": "International"
+                },
+                {
+                  "label": "Model",
+                  "value": "LT"
+                },
+                {
+                  "label": "VIN",
+                  "value": "1HSHXSJR9PH123456"
+                }
+              ],
+              "image": {
+                "src": "preview/a9/1.1__03__preview.jpg",
+                "alt": "2023 International LT",
+                "width": 600,
+                "height": 400
+              }
+            },
+            {
+              "slug": "4-test",
+              "href": "products/4-test",
+              "title": "test",
+              "price": "$0",
+              "facts": [
+                {
+                  "label": "Fuel Type",
+                  "value": "diesel"
+                },
+                {
                   "label": "Condition",
-                  "value": "New"
+                  "value": "new"
+                },
+                {
+                  "label": "Make",
+                  "value": "rer"
                 }
               ],
               "image": null
             },
             {
-              "slug": "4-2027-international-mv-5",
-              "href": "products/4-2027-international-mv-5",
-              "title": "2027 INTERNATIONAL MV",
-              "price": "$116,900",
-              "facts": [
-                {
-                  "label": "Condition",
-                  "value": "New"
-                },
-                {
-                  "label": "Year",
-                  "value": "2027"
-                },
-                {
-                  "label": "Model",
-                  "value": "MV"
-                }
-              ],
-              "image": {
-                "src": "https://vendure.aionerds.com/assets/preview/13/dms-11046608063__03__preview.webp",
-                "alt": "2027 INTERNATIONAL MV",
-                "width": 600,
-                "height": 400
-              }
-            },
-            {
-              "slug": "4-2027-international-mv-4",
-              "href": "products/4-2027-international-mv-4",
-              "title": "2027 INTERNATIONAL MV",
-              "price": "$125,900",
-              "facts": [
-                {
-                  "label": "Condition",
-                  "value": "Used"
-                },
-                {
-                  "label": "Availability",
-                  "value": "For sale"
-                },
-                {
-                  "label": "Year",
-                  "value": "2027"
-                }
-              ],
-              "image": {
-                "src": "https://vendure.aionerds.com/assets/preview/07/dms-11046608063__03__preview.jpg",
-                "alt": "2027 INTERNATIONAL MV",
-                "width": 600,
-                "height": 400
-              }
-            },
-            {
               "slug": "4-2024-international-emv",
               "href": "products/4-2024-international-emv",
               "title": "2024 INTERNATIONAL EMV",
-              "price": "$195,500",
+              "price": "$0",
               "facts": [
                 {
+                  "label": "VIN",
+                  "value": "3HAFFE2L3RL485081"
+                },
+                {
                   "label": "Condition",
-                  "value": "Used"
+                  "value": "used"
                 },
                 {
                   "label": "Year",
                   "value": "2024"
-                },
-                {
-                  "label": "Model",
-                  "value": "EMV"
                 }
               ],
               "image": {
-                "src": "https://vendure.aionerds.com/assets/preview/a5/dms-8043066049__03__preview.jpg",
+                "src": "preview/a5/dms-8043066049__03__preview.jpg",
                 "alt": "2024 INTERNATIONAL EMV",
                 "width": 600,
                 "height": 400
@@ -156,7 +138,7 @@
               "slug": "4-2025-hyundai",
               "href": "products/4-2025-hyundai",
               "title": "2025 HYUNDAI",
-              "price": "$68,550",
+              "price": "$0",
               "facts": [
                 {
                   "label": "Year",
@@ -167,13 +149,117 @@
                   "value": "New"
                 },
                 {
-                  "label": "VIN",
-                  "value": "3H3V402K8SJ403205"
+                  "label": "Manufacturer",
+                  "value": "HYUNDAI"
                 }
               ],
               "image": {
-                "src": "https://vendure.aionerds.com/assets/preview/96/dms-9070598747__03__preview.jpg",
+                "src": "preview/96/dms-9070598747__03__preview.jpg",
                 "alt": "2025 HYUNDAI",
+                "width": 600,
+                "height": 400
+              }
+            },
+            {
+              "slug": "4-2024-kenworth-t880",
+              "href": "products/4-2024-kenworth-t880",
+              "title": "2024 KENWORTH T880",
+              "price": "$0",
+              "facts": [
+                {
+                  "label": "Condition",
+                  "value": "used"
+                },
+                {
+                  "label": "Year",
+                  "value": "2024"
+                },
+                {
+                  "label": "VIN",
+                  "value": "1NKZXPEX4RJ330229"
+                }
+              ],
+              "image": {
+                "src": "preview/5d/dms-10002942656__03__preview.jpg",
+                "alt": "2024 KENWORTH T880",
+                "width": 600,
+                "height": 400
+              }
+            },
+            {
+              "slug": "4-2026-international-lt",
+              "href": "products/4-2026-international-lt",
+              "title": "2026 INTERNATIONAL LT",
+              "price": "$0",
+              "facts": [
+                {
+                  "label": "Condition",
+                  "value": "new"
+                },
+                {
+                  "label": "Manufacturer",
+                  "value": "INTERNATIONAL"
+                },
+                {
+                  "label": "VIN",
+                  "value": "3HSDYSZN9TN678107"
+                }
+              ],
+              "image": {
+                "src": "preview/5a/dms-11009572643__03__preview.jpg",
+                "alt": "2026 INTERNATIONAL LT",
+                "width": 600,
+                "height": 400
+              }
+            },
+            {
+              "slug": "4-2026-international-lt-2",
+              "href": "products/4-2026-international-lt-2",
+              "title": "2026 INTERNATIONAL LT",
+              "price": "$0",
+              "facts": [
+                {
+                  "label": "Condition",
+                  "value": "new"
+                },
+                {
+                  "label": "Manufacturer",
+                  "value": "INTERNATIONAL"
+                },
+                {
+                  "label": "Model",
+                  "value": "LT"
+                }
+              ],
+              "image": {
+                "src": "preview/dd/dms-11009586039__03__preview.jpg",
+                "alt": "2026 INTERNATIONAL LT",
+                "width": 600,
+                "height": 400
+              }
+            },
+            {
+              "slug": "4-2026-international-lt-3",
+              "href": "products/4-2026-international-lt-3",
+              "title": "2026 INTERNATIONAL LT",
+              "price": "$0",
+              "facts": [
+                {
+                  "label": "Condition",
+                  "value": "new"
+                },
+                {
+                  "label": "Manufacturer",
+                  "value": "INTERNATIONAL"
+                },
+                {
+                  "label": "Model",
+                  "value": "LT"
+                }
+              ],
+              "image": {
+                "src": "preview/03/dms-11009595792__03__preview.jpg",
+                "alt": "2026 INTERNATIONAL LT",
                 "width": 600,
                 "height": 400
               }
