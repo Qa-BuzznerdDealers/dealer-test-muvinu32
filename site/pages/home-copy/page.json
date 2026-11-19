@@ -127,27 +127,27 @@
               }
             },
             {
-              "slug": "4-2024-hyundai-composite-8",
-              "href": "products/4-2024-hyundai-composite-8",
-              "title": "2024 HYUNDAI COMPOSITE",
-              "price": "$33,000",
+              "slug": "4-2024-international-emv",
+              "href": "products/4-2024-international-emv",
+              "title": "2024 INTERNATIONAL EMV",
+              "price": "$195,500",
               "facts": [
                 {
                   "label": "Condition",
                   "value": "Used"
                 },
                 {
-                  "label": "Model",
-                  "value": "COMPOSITE"
-                },
-                {
                   "label": "Year",
                   "value": "2024"
+                },
+                {
+                  "label": "Model",
+                  "value": "EMV"
                 }
               ],
               "image": {
-                "src": "https://vendure.aionerds.com/assets/preview/cc/dms-11045395577__03__preview.jpg",
-                "alt": "2024 HYUNDAI COMPOSITE",
+                "src": "https://vendure.aionerds.com/assets/preview/a5/dms-8043066049__03__preview.jpg",
+                "alt": "2024 INTERNATIONAL EMV",
                 "width": 600,
                 "height": 400
               }
