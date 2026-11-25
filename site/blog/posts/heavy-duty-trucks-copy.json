@@ -265,16 +265,16 @@
                           "price": "$0",
                           "facts": [
                             {
+                              "label": "VIN",
+                              "value": "3HAFFE2L3RL485081"
+                            },
+                            {
                               "label": "Condition",
                               "value": "used"
                             },
                             {
                               "label": "Year",
                               "value": "2024"
-                            },
-                            {
-                              "label": "Model",
-                              "value": "EMV"
                             }
                           ],
                           "image": {
@@ -299,8 +299,8 @@
                               "value": "New"
                             },
                             {
-                              "label": "VIN",
-                              "value": "3H3V402K8SJ403205"
+                              "label": "Manufacturer",
+                              "value": "HYUNDAI"
                             }
                           ],
                           "image": {
