@@ -33,7 +33,8 @@
       "id": "ca-email",
       "type": "email",
       "label": "Email",
-      "required": true
+      "required": false,
+      "hidden": false
     },
     {
       "id": "ca-phone",
@@ -83,7 +84,7 @@
       "scopeMode": "dynamic"
     }
   ],
-  "updatedAt": "2026-11-26T14:19:19.752Z",
+  "updatedAt": "2026-11-26T14:21:01.250Z",
   "analytics": {
     "shift-digital": {
       "formType": "Request More Info",
