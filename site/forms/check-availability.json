@@ -83,5 +83,11 @@
       "scopeMode": "dynamic"
     }
   ],
-  "updatedAt": "2026-11-26T14:04:06.819Z"
+  "updatedAt": "2026-11-26T14:04:55.818Z",
+  "analytics": {
+    "shift-digital": {
+      "formType": "Request More Info",
+      "leadType": "lead"
+    }
+  }
 }
