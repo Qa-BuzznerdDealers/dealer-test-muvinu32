@@ -22,7 +22,12 @@
       "id": "ca-name",
       "type": "full_name",
       "label": "Full name",
-      "required": true
+      "required": true,
+      "analytics": {
+        "shift-digital": {
+          "formFieldName": "other"
+        }
+      }
     },
     {
       "id": "ca-email",
@@ -78,11 +83,5 @@
       "scopeMode": "dynamic"
     }
   ],
-  "updatedAt": "2026-11-26T14:02:57.471Z",
-  "analytics": {
-    "shift-digital": {
-      "formType": "Request More Info",
-      "leadType": "lead"
-    }
-  }
+  "updatedAt": "2026-11-26T14:04:06.819Z"
 }
