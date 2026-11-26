@@ -126,9 +126,9 @@
   ],
   "analytics": {
     "shift-digital": {
-      "formType": "Request More Info",
-      "leadType": "lead"
+      "formType": null,
+      "leadType": null
     }
   },
-  "updatedAt": "2026-11-26T14:17:31.133Z"
+  "updatedAt": "2026-11-26T14:19:38.882Z"
 }
