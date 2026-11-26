@@ -74,13 +74,23 @@
           "value": "browsing",
           "label": "Just browsing"
         }
-      ]
+      ],
+      "analytics": {
+        "shift-digital": {
+          "formFieldName": "other"
+        }
+      }
     },
     {
       "id": "ca-message",
       "type": "paragraph",
       "label": "Anything we should know?",
-      "required": false
+      "required": false,
+      "analytics": {
+        "shift-digital": {
+          "formFieldName": "other"
+        }
+      }
     }
   ],
   "notifications": [
@@ -94,7 +104,7 @@
       "scopeMode": "dynamic"
     }
   ],
-  "updatedAt": "2026-11-26T14:23:18.014Z",
+  "updatedAt": "2026-11-26T14:23:43.348Z",
   "analytics": {
     "shift-digital": {
       "formType": "Request More Info",
