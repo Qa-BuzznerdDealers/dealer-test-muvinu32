@@ -13,7 +13,7 @@
   "submitLabel": "Check availability",
   "successMessage": "Thanks — we will confirm availability shortly.",
   "consent": {
-    "enabled": true,
+    "enabled": false,
     "required": true,
     "text": "I agree to be contacted about this enquiry by phone, text or email."
   },
@@ -39,7 +39,7 @@
       "id": "ca-phone",
       "type": "phone",
       "label": "Phone",
-      "required": false
+      "required": true
     },
     {
       "id": "ca-when",
@@ -83,7 +83,7 @@
       "scopeMode": "dynamic"
     }
   ],
-  "updatedAt": "2026-11-26T14:04:55.818Z",
+  "updatedAt": "2026-11-26T14:19:19.752Z",
   "analytics": {
     "shift-digital": {
       "formType": "Request More Info",
