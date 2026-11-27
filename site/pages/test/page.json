@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "test-section",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "background": "none",
+        "paddingY": 7
+      },
+      "children": [
+        {
+          "id": "test-row",
+          "type": "row",
+          "props": {
+            "gap": 6,
+            "align": "start",
+            "stackOn": "mobile"
+          },
+          "children": [
+            {
+              "id": "test-column",
+              "type": "column",
+              "props": {
+                "span": 12,
+                "align": "auto",
+                "padding": 0,
+                "background": "none"
+              },
+              "children": [
+                {
+                  "id": "test-heading",
+                  "type": "heading",
+                  "props": {
+                    "text": "Testing Page",
+                    "headingLevel": 1,
+                    "align": "center"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
